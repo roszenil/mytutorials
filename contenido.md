@@ -1,5 +1,5 @@
 ---
-title: Tutorials
+title: Temario
 layout: home
 nav_order: 2
 index: true
@@ -7,17 +7,20 @@ redirect: false
 
 ---
 
-## List of phylogenetic comparative methods tutorials
+## Día 1---Miércoles 8 de enero
 
-Tutorials in this section are about phylogenetic comparative methods
+### Bloque 1 [9:00–11:00, 2 hrs]  
 
-### Discrete trait models (English) 
 
-    1. Slides
+### Bloque 3 [15:30–18:00, 2.5 hrs]
+3. Modelos para caracteres discretos y diversificación
+    1. [Tutorial RevBayes Mk2](./docs/discrete/ctmc_revbayes)
+    2. [Visualización resultados Mk2](./docs/discrete/mk2_visualizacion)
+
    
-    
-### Modelos de caracter discreto (Español)
-    1. [Introducción a BiSSE](./docs/discrete/SSEmodels) 
-    2. [Introducción a HiSSE y pruebas de hipótesis](./docs/discrete/SSEmodels_hidden)
-    3. [Visualización HiSSE e hipótesis](./docs/discrete/hisse_visualizacion)
 
+
+
+
+### Bloque 3 [15:30–18:00, 2.5 hrs]
+Tiempo dedicado a trabajar en grupos temáticos. 
