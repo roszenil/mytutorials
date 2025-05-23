@@ -4,7 +4,6 @@ layout: home
 nav_order: 2
 index: true
 redirect: false
-
 ---
 
 ## List of phylogenetic comparative methods tutorials
@@ -13,7 +12,7 @@ Tutorials in this section are about phylogenetic comparative methods
 
 ### Discrete trait models (English) 
 
-    1.Slides
+    1. Slides
     2. [Continuous Time Markov Models in RevBayes](./docs/discrete/ctmc_revbayes_english)
     
 ### Modelos de caracter discreto (Español)
