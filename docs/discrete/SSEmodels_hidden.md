@@ -1,7 +1,7 @@
 ---
 title: "Modelo de diversificación con estados escondidos"
 layout: home
-nav_order: 4
+nav_order: 6
 index: true
 redirect: false
 parent: Temario

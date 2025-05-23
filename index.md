@@ -1,5 +1,5 @@
 ---
-title: Workshops 
+title: Welcome 
 subtitle: Tutorials developed by Rosana Zenil-Ferguson
 layout: home
 nav_order: 1
