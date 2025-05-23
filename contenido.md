@@ -1,5 +1,5 @@
 ---
-title: Temario
+title: Tutorials
 layout: home
 nav_order: 2
 index: true
@@ -7,10 +7,12 @@ redirect: false
 
 ---
 
-## Día 1---Miércoles 8 de enero
+## List of tutorials
 
-### Bloque 1 [9:00–11:00, 2 hrs]  
-
+### Discrete character models (CTMC)  
+1. Mk2
+    1. Slides
+    2. [Tutorial RevBayes Mk2](./docs/discrete/ctmc_revbayesEnglish)
 
 ### Bloque 3 [15:30–18:00, 2.5 hrs]
 3. Modelos para caracteres discretos y diversificación
