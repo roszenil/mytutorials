@@ -1,10 +1,10 @@
 ---
 title: "Modelos para caracteres discreto en RevBayes"
 layout: home
-nav_order: 5
+nav_order: 6
 index: true
 redirect: false
-parent: Temario
+parent: Tutorials
 math: katex
 ---
 Creado por Rosana Zenil-Ferguson (Enero 2025)

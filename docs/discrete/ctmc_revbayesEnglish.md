@@ -1,10 +1,10 @@
 ---
-title: "Discrete character models in Revbayes"
+title: Discrete character models in Revbayes
 layout: home
 nav_order: 3
 index: true
 redirect: false
-parent: Temario
+parent: Tutorials
 math: katex
 ---
 Created by Rosana Zenil-Ferguson for MOLE Workshop at Woods Hole, MA(May 2025). 

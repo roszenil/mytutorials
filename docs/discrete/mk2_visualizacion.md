@@ -1,10 +1,10 @@
 ---
-title: "Visualización resultados del Mk2"
+title: Visualización resultados del Mk2
 layout: home
-nav_order: 6
+nav_order: 7
 index: true
 redirect: false
-parent: Temario
+parent: Tutorials
 math: katex
 ---
 

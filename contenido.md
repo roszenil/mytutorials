@@ -14,6 +14,10 @@ redirect: false
     1. Slides
     2. [Mk2 tutorial in RevBayes](./docs/discrete/ctmc_revbayesEnglish)
     3. [Visualizing the results of Mk2](./docs/discrete//mk2_visualizacionEnglish)
+    
+2. State dependent diversification models
+    1. Slides
+    2. [BiSSE tutorial in RevBayes](./docs/discrete/ssemodelsEnglish)
 
 ### Modelos para caracteres discretos
 1. Cadenas de Markov en tiempo continuo
@@ -22,5 +26,4 @@ redirect: false
 
    
 
-### Bloque 3 [15:30–18:00, 2.5 hrs]
-Tiempo dedicado a trabajar en grupos temáticos. 
+### Other tutorials(TBD) 

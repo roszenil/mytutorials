@@ -4,7 +4,7 @@ layout: home
 nav_order: 4
 index: true
 redirect: false
-parent: Temario
+parent: Tutorials
 math: katex
 ---
 
