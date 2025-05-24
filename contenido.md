@@ -22,8 +22,5 @@ redirect: false
 
    
 
-
-
-
 ### Bloque 3 [15:30–18:00, 2.5 hrs]
 Tiempo dedicado a trabajar en grupos temáticos. 

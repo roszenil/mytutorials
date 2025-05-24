@@ -44,8 +44,8 @@ library(ggplot2)
 Check basic convergence
 
 Download the following files
-+ [First run](https://ixchelgzlzr.github.io/filo_bayes_UNAM/docs/discrete/files/mk2_polinizador_run_1.log)
-+ [Second run(https://github.com/ixchelgzlzr/filo_bayes_UNAM/blob/main/docs/discrete/files/mk2_polinizador_run_2.log)
++ [First run](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/mk2_polinizador_run_1.log)
++ [Second run](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/mk2_polinizador_run_2.log)
 
 ```
 # Make sure you are in the correct working directory
@@ -184,7 +184,7 @@ There are two tools that help us reconstruct the past. These tools are:
 2. Stochastic maps: These are simulations from root to tip of probable histories that happened throughout branches of the tree. Better than only reconstructing over nodes, but more difficult to calculate. We have multiples of this simulations but one way to summarize is to choose the maximum *a posterior* of all those simulations as we have it below. 
 
     + [Phylogenetic tree in Nexus format](files/poliniza_arbol.nex)
-    + [Stochastic maps](files/stochmap_mk2_polinizador_run_1.log)
+    + [Stochastic maps](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/stochmap_mk2_polinizador_run_1.log)
 
     ```
       #This is in development in RevGadgets hence the request to download the specific version above. 
