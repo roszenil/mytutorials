@@ -73,7 +73,7 @@ rate_matrix := fnFreeK(q, rescaled=false, matrixExponentialMethod="scalingAndSqu
 
 
 ### Definimos una a priori log normal donde la media es ln(#especies//2)/edad de la filogenia. Con una varianza H que es amplia
-H = 0.587405
+H = 0.5
 rate_mean <- ln( ln(103/2.0) / observed_phylogeny.rootAge() )
 rate_sd <- 2*H
 

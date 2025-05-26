@@ -32,7 +32,8 @@ We need the following R packages. **Important**: The RevGadgets packages is avai
 
 # Important: Do not do install.packages("RevGadgets"). Do the version below
 
-# devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
+#devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
+
 library(coda)
 library(RevGadgets)
 library(phytools)
@@ -48,20 +49,22 @@ Download the following files
 + [Second run](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/mk2_polinizador_run_2.log)
 
 ```
-# Make sure you are in the correct working directory
-#setwd("~/Teaching/Workshops/UNAM2025/discrete_trait/files")
+# Make sure you are in the correct working directory or project
+#setwd()
 
 # Coda package checks for basic convergence
 mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
 mcmc_trace <- as.mcmc(mcmc_run1[[1]])
 traceplot(mcmc_trace)
 effectiveSize(mcmc_trace)
+
+## Note: If you get an error here try
+## mcmc_trace[[1]] <- as.mcmc(mcmc_trace[[1]]) 
 ```
 
 Better job at visualizing convergence
 
 ```
-# ggplot+ revGadgets
 mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
 mcmc_run1<-data.frame(mcmc_run1)
 mcmc_run1<- cbind(mcmc_run1,run=rep("run 1",length(mcmc_run1$Iteration)))
@@ -73,8 +76,8 @@ mcmc_run2<- cbind(mcmc_run2,run=rep("run 2",length(mcmc_run2$Iteration)))
 mcmc_table<-rbind(mcmc_run1,mcmc_run2)
 
 trace_plot<- ggplot(mcmc_table, aes(x=Iteration,y=Posterior,group=run))+
-              geom_line(aes(color=run))+
-              theme_classic()
+  geom_line(aes(color=run))+
+  theme_classic()
 trace_plot
 
 ```
@@ -89,7 +92,7 @@ Remember that for Mk2 we estimated the following four parameters
 
 
 ```
-# revgadgets
+#Revgadgets
 
 mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
 # Summary statistics
@@ -127,9 +130,9 @@ violin_transitions
 
 ## Hypothesis testing: Are the transition rates between states equal?
 
-One of the advantages of using posterior distribution is that we can quickly assess which parameters might be equal or different. However, the formal approach is to present a test statistic about the diference. How do we formalize this test in a Bayesian framework?
+One of the advantages of using posterior distribution is that we can quickly assess which parameters might be equal or different. The formal approach is to present a test statistic representing the difference. How do we creat this test in a Bayesian framework?
 
-We build a summary statistic $$D= q_{01}-q_{10}$$ because difference and we plot it.
+We build a summary statistic $$D= q_{01}-q_{10}$$, that is the difference between rates and we plot it
 
 ```
 # Using ggplot2
@@ -145,18 +148,17 @@ violin_difference<- ggplot(D,aes(x=rate,y=dens, fill=rate))+
 
 # Zero is crossing the test statistic high probability values
 violin_difference
-
 ```
 Formalizing the hypothesis
 $$ H_0: D=0$$
 
 
 ```
-hpd <-quantile(D$dens, probs=c(0.025,0.975))
-hpd
+diff_quantile<-quantile(D$dens, probs=c(0.025,0.975))
+diff_quantile
 ```
 
-We observa that the highest posterior probability interval, known as the credible interval for $$D$$ with 95% of the probability of the posterior is (-0.19, 0.01). The value zero belongs to the credible interval. Therefore, the probability of the null hypothesis is larger than 5%, in mathematical terms $$P(H_0\lvert Data)>0.05$$. This means that the transition rates are equal with a probability higher than 5%.  **Important**: Note that in Bayesian hypothesis testing we don't use p-values, or significance, we do not reject or fail to reject, we simply state how **probable** a hypothesis is. 
+We observe that the highest posterior probability interval, known as the credible interval for $$D$$ with 95% of the probability of the posterior is (-0.19, 0.01). The value zero belongs to the credible interval. Therefore, the probability of the null hypothesis is larger than 5%, in mathematical terms $$P(H_0\lvert Data)>0.05$$. This means that the transition rates are equal with a probability higher than 5%.  **Important**: Note that in Bayesian hypothesis testing we don't use p-values, or significance, we do not reject or fail to reject, we simply state how **probable** a hypothesis is. 
 
 ## Ancestral reconstructions
 
@@ -177,6 +179,11 @@ There are two tools that help us reconstruct the past. These tools are:
                  tip_states_size=2)
        # produce the plot object, showing MAP states at nodes.
        # color corresponds to state, size to the state's posterior probability
+       
+       # We can do pies too. Warning: I don't like to do pies when doing Bayesian probabilities, to distinguish them from likelihood approaches (like phytools)
+       plotAncStatesPie(t=  anc_states,
+                 state_transparency = 0.8,
+                 node_labels_size=  5) 
 
     ```
 
@@ -187,7 +194,7 @@ There are two tools that help us reconstruct the past. These tools are:
     + [Stochastic maps](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/stochmap_mk2_polinizador_run_1.log)
 
     ```
-      #This is in development in RevGadgets hence the request to download the specific version above. 
+      #This is in development in RevGadgets hence the request to download the specific version above. It might send you some warnings. 
 
       mycolors= setNames(c("blue","darkorange"),c("0","1"))
 

@@ -1,7 +1,7 @@
 ---
 title: HiSSE in Revbayes
 layout: home
-nav_order: 7
+nav_order: 8
 index: true
 redirect: false
 parent: Tutorials
@@ -19,6 +19,7 @@ For this tutorial we will create hidden-dependent state model for a pollinizatio
  + List with species and their pollinization [here](files/poliniza_datos.csv)
  
  + Phylogenetic tree- [here](files/poliniza_arbol.tre)
+ 
  + The whole [HiSSE Rev code](files/hisse.Rev)
  
  ## RevBayes code

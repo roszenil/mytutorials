@@ -1,7 +1,7 @@
 ---
 title: "Hidden state-dependent diversification"
 layout: home
-nav_order: 6
+nav_order: 7
 index: true
 redirect: false
 parent: Tutorials

@@ -1,7 +1,7 @@
 ---
 title: BiSSE visualization
 layout: home
-nav_order: 3
+nav_order: 6
 index: true
 redirect: false
 parent: Tutorials
@@ -83,6 +83,7 @@ trace_plot
 Let's plot the posterior distribution of all our parameters
 
 + Transition rates $$q_{01},q_{10}$$
+
 ```
 # ggplot2
 
@@ -99,9 +100,10 @@ violin_transitions<- ggplot(transition_rates,aes(x=rate,y=dens, fill=rate))+
   scale_fill_manual( values = traitcols)+
   theme_classic()
 violin_transitions
-
 ```
+
 + Net diversification rates $$r_{0}=\lambda_{0}-\mu_{0},r_{1}=\lambda_{1}-\mu_{1}$$
+
 ```
 divcols<-c("#E63946","#1D3557")
 netdiversification_rates<- data.frame(dens=c(bisse$net_diversification.1., bisse$net_diversification.2.) ,rate=rep(c("net_div_0","net_div_1"),each=length(bisse$net_diversification.1.)))
@@ -113,7 +115,9 @@ violin_diversification<- ggplot(netdiversification_rates,aes(x=rate,y=dens, fill
   theme_classic()
 violin_diversification
 ```
+
 + Alternative:Turnover $$\tau_{0}=\lambda_{0}+\mu_{0},\tau_{1}=\lambda_{1}+\mu_{1}$$
+
 + Root frequencies
 
 ```
@@ -129,6 +133,7 @@ violin_rootfreq
 ```
 
 ## Hypothesis testing
+
 Are the diversification rates truly different for states?
 
 Here's the appropriate way to do this inference from the Bayesian perspective. **Note of caution:** It is represented here as a simple process but there are many nuances to this, In reality, we **rarely** use BiSSE and it is much easier and biologically relevant to use HiSSE. This exercise is for teaching purposes only, please make sure you refer to HiSSE.

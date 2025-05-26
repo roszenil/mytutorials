@@ -18,6 +18,7 @@ redirect: false
 2. State dependent diversification models (SSE)
     1. Slides
     2. [BiSSE tutorial in RevBayes](./docs/discrete/SSEmodelsEnglish)
+    3. [BiSSE visualization in R](./docs/discrete/bisse_visualizationEnglish)
     3. [HiSSE introduction](./docs/discrete/SSEmodels_hiddenEnglish)
     4. [HiSSE tutorial in RevBayes](./docs/discrete/hisse_revbayesEnglish)
 
