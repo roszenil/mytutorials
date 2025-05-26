@@ -21,6 +21,7 @@ redirect: false
     3. [BiSSE visualization in R](./docs/discrete/bisse_visualizationEnglish)
     3. [HiSSE introduction](./docs/discrete/SSEmodels_hiddenEnglish)
     4. [HiSSE tutorial in RevBayes](./docs/discrete/hisse_revbayesEnglish)
+    5. [HiSSE visualization in R](./docs/discrete/hisse_visualizationEnglish)
 
 ### Modelos para caracteres discretos
 1. Cadenas de Markov en tiempo continuo

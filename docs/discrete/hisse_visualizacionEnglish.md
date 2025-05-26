@@ -174,7 +174,7 @@ violin_diff
 ```
 
 Formalizing the hypothesis test
-$$ H_0: T_A=0 \textrm{ and } T_B=0$$
+$$H_0: T_A=0$$ and  $$T_B=0$$
 
 ```
 #dplyr
@@ -213,7 +213,7 @@ violin_difference
 ```
 
 Formalizing the hypothesis testing
-$$ H_0: T_0=0 \textrm{ and } T_1=0$$
+$$ H_0: T_0=0$$ and  $$T_1=0$$
 
 ```
 # Esta parte se hace con dplyr
