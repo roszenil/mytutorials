@@ -19,6 +19,7 @@ redirect: false
     1. Slides
     2. [BiSSE tutorial in RevBayes](./docs/discrete/SSEmodelsEnglish)
     3. [HiSSE introduction](./docs/discrete/SSEmodels_hiddenEnglish)
+    4. [HiSSE tutorial in RevBayes](./docs/discrete/hisse_revbayesEnglish)
 
 ### Modelos para caracteres discretos
 1. Cadenas de Markov en tiempo continuo

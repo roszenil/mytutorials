@@ -20,19 +20,19 @@ In mathematical terms the null hypothesis of BiSSE is
 
 $$H_0: r_0=(\lambda_0-\mu_0) = r_1=(\lambda_1-\mu_1)$$
 
-where $$r_0=\lambda_0-\mu_0$$ is the net diversification of state 0, and $$r_1=\lambda_1-\mu_1$$ is the net diversification of state 1. If we reject $$H_0$$  this is interpreted as  $$r_0\neq r_1$ and we conclude that the discrete trait modifies the tempo of diversification. But if we are rejecting in circumstances where we shouldn't (a.k.a high type I error) then we conclude our trait matters for diversification when it doesn't. This is a key error! Hence, the importance of the contribution of Rabosky and Goldberg.
+where $$r_0=\lambda_0-\mu_0$$ is the net diversification of state 0, and $$r_1=\lambda_1-\mu_1$$ is the net diversification of state 1. If we reject $$H_0$$  this is interpreted as  $$r_0\neq r_1$$ and we conclude that the discrete trait modifies the tempo of diversification. But if we are rejecting when we shouldn't reject (a.k.a high type I error) it is dangerous. Rabosky and Goldberg (2015) showed this mistake happens often, by simulating traits that were clearly not correlated with diversification and often concluding that BiSSE claimed they ware. 
 
  How can we fix this key problem? The answer is using a mathematical trick called **the hidden states** as we will study next. 
  
-## BiSSE is so simple that it makes mistakes
+## BiSSE is too naive for phylogenies, so it makes mistakes
 
-Using our experience building phylogenetic trees, we can clearly see how trees accumulate lineages at different paces across the phylogeny. There are key examples of this in big phylogenies (i.e., *Amborella* is the single species sister to all of the flowering plants). Do we think that a single trait can modify the tempo of diversification?  are there other factors that could be changing diversification? Are those factors correlated with my trait? and most importantly, how do we separate the effect of the trait from other noise in the diversification process?
+In our experience building phylogenetic trees, we see how trees accumulate lineages at different paces across the phylogeny (i.e., *Amborella* is the single species sister to all of the flowering plants). Do we think that a single trait can modify the tempo of diversification?  Are there other factors that could be changing diversification other than my trait? Are those other factors correlated with my trait? and most importantly, how do we separate the effect of the trait from other noise in the diversification process?
 
 It is clear that there are other factors and traits that can be modifying diversification. Therefore, we have to come up with a new null hypothesis and a new way to separate the trait from other factors changing the tempo of diversification. 
 
-## The new model is HiSSE and the use of hidden states
+## HiSSE and the use of hidden states
 
-We define now a set of hidden states that occur correlated to the states of the main trait but represent other factors or "noise" that changes the tempo of diversification. The mathematical tool we are using here are the hidden Markov models, which are widely used in other applications to represent part of the process that we don't directly measure. We will start with two hidden states for two main states but in theory you can add as many as you wish to. In practice, we add the same number of hidden states as the main states (the why will be clearer in a little bit). This model was proposed by Beaulieu y O'Meara (2016) and it has become the most useful tool in the state-dependent diversification field. 
+HiSSE or the hidden-state dependent speciation and extincton model considers other factors that could be modifying diversification. HiSSE does this by defining a set of hidden states that occur correlated to the states of the main trait but represent other factors or "noise" that changes the tempo of diversification. The mathematical tool HiSSE uses is a hidden Markov model. Hidden Markov models are used in other applications to represent uncertainty in sampling. We will start by defining two hidden states in addition to two main states, but in theory you can add as many hidden states as you wish to. In practice, we add the same number of hidden states as the main states (the why will be clearer in a little bit). This model was proposed by Beaulieu y O'Meara (2016) and it has become the most useful tool in the state-dependent diversification field. 
 
 We define the HiSSE model as follows:
 
@@ -61,6 +61,9 @@ However, in Bayesian statistics we don't have to do a model selection procedure 
  
 ![](images/gray_zonev2.png)
 *Figure 3. Using a HiSSE model in a Bayesian framework we can find which net diversifications are equal and different. Depending on which posterior distributions of net diversification rates are overlapping we can end up in any of these cases. In (F) you can see what are the comparisons that should be equal, different, or not done between every two posterior distributions.*
+
+**The biggest advantage of having a Bayesian approach is that we only need to fit HiSSE to conclude which initial model is more sensitife to our data as shown in Fig. 3** 
+
 
 ## Testing diversification hypothesis in a Bayesian framework
 
@@ -93,9 +96,6 @@ To test this hypothesis we will follow the next steps
 *Figure 3. Look the result of this HiSSE for one of my examples of poricidal anthers. In (A) we have that the posterior distributions of the net diversifications for the four states. In (B) we have the summary  statistics $$T_A$$ y $$T_B$$, where zero clearly crosses the distributions, showing that 0 and 1 are not different in diversification. This is equivalent to adjust the CID-2 model. Results from: Russell, Zenil-Ferguson, et al. 2024.*
 
 
-## Quick interpretation of results
-
-The biggest advangate of having a Bayesian approach is that we only need to fit HiSSE to conclude which initial model is more sensitife to our data. 
 
 
 ### Important reads!
