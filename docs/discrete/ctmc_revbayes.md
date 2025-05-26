@@ -1,7 +1,7 @@
 ---
 title: "Modelos para caracteres discreto en RevBayes"
 layout: home
-nav_order: 6
+nav_order: 7
 index: true
 redirect: false
 parent: Tutorials

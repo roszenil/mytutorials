@@ -15,9 +15,10 @@ redirect: false
     2. [Mk2 tutorial in RevBayes](./docs/discrete/ctmc_revbayesEnglish)
     3. [Visualizing the results of Mk2](./docs/discrete//mk2_visualizacionEnglish)
     
-2. State dependent diversification models
+2. State dependent diversification models (SSE)
     1. Slides
-    2. [BiSSE tutorial in RevBayes](./docs/discrete/ssemodelsEnglish)
+    2. [BiSSE tutorial in RevBayes](./docs/discrete/SSEmodelsEnglish)
+    3. [HiSSE introduction](./docs/discrete/SSEmodels_hiddenEnglish)
 
 ### Modelos para caracteres discretos
 1. Cadenas de Markov en tiempo continuo
