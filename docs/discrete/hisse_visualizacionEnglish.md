@@ -216,7 +216,7 @@ Formalizing the hypothesis testing
 $$ H_0: T_0=0$$ and  $$T_1=0$$
 
 ```
-# Esta parte se hace con dplyr
+# dplyr
 
 quantiles_T <- T_diff %>% group_by(difference)%>%reframe(res=quantile(dens,probs=c(0.025,0.975)))
 quantiles_T

@@ -122,8 +122,6 @@ q[4][2] := hidden_rate2
 rate_matrix := fnFreeK(q, rescaled=false, matrixExponentialMethod="scalingAndSquaring"))
 ```
 
-![](images/qmatrixmodel.png)
-
 9. Defining the diversification rates 
 
 ```
@@ -221,7 +219,6 @@ hisse.clamp( observed_phylogeny )
 hisse.clampCharData( data_exp ) #note the clamping on the expanded dataset
 
 ```
-![](images/clamp.png)
 
 Once the data are clamped we will have a  **posterior distribution for the HiSSE model** and we can perform our inference
 
@@ -297,3 +294,5 @@ mymcmc.run(generations=150000)
 
 q()
 ```
+
+![](images/hissegraphical.png)
