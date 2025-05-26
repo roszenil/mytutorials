@@ -1,5 +1,5 @@
 ---
-title: "Results Mk2"
+title: "Mk2 visualization"
 layout: home
 nav_order: 4
 index: true
