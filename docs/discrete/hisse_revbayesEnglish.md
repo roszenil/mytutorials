@@ -124,13 +124,13 @@ rate_matrix := fnFreeK(q, rescaled=false, matrixExponentialMethod="scalingAndSqu
 
 9. Defining the diversification rates 
 
+We will be careful for the diversification rates of 0A y 0B. We will use a multiplier called ``speciation_alpha`` for states with hidden value A and speciation_alpha+speciation_beta for states with hidden value B. We build them this way because A and B are hidden states derived from the same main state so in theory they should be not so different. However, you can decide to define completely separated, or as a vector.
+
 ```
 ### Create prior parameters of the diversification rates
 H = 0.5
 rate_mean <- ln(ln(103/2.0) /root_age) # This is from Magallon and Sanderson (2001)
 rate_sd <- 2*H
-
-#We will be careful for the diversification rates of 0A y 0B. We will use a multiplier called sepciation_alpha for states in A and speciation_alpha+speciation_beta for B. We build them this way because A and B are hidden states derivated from the same main state so in theory they should be not so different. However, you can decide to define them separatedly. 
 
 for (i in 1:NUM_STATES) {
 ### Create a lognormal distributed variable for the speciation rate
@@ -175,11 +175,11 @@ extinction[index] := exp( extinction_alpha[i] + extinction_beta[j-1] )
 We do not know if the most common recent ancestor of all taxa were wind or insect pollinated, so we need to estimate the value of the root. In the Bayesian statistics framework the frequencies at the root are two extra parametes that we need to estimate. Therefore, we will assume initial equal frequencies for each state. Since there are two states we will need a bivariate prior distribution as the prior for a vector with two frequencies that add up to 1. A very useful distribution for this goal is the Dirichlet, a multivariate proability distribution that allows us to assign equal frequency to both states. 
 
 ``` 
-root_frequencies ~ dnDirichlet(rep(1,NUM_STATES))
+root_frequencies ~ dnDirichlet(rep(1,NUM_RATES))
 
 # Two proposals to explore those values at the root multiple times. 
 
-moves.append(mvBetaSimplex(root_frequencies, alpha=0.5, weight=2))
+moves.append(mvDirichletSimplex(root_frequencies,tune=true,weight=2))
 
 moves.append(mvElementSwapSimplex(root_frequencies, weight=3))
 ```
@@ -230,7 +230,7 @@ We have calculated the posterior distribution but now we need to focus on how to
 
 + ``mvScale( q_01, weight=2 )`` this proposal rescales the original value of $$q_{01}$$ twice per iteration.
 + ``mvSlide(speciation_alpha[i],delta=0.20,tune=true,weight=2.0)`` this proposal is a window that slides through values of the parameter and tunes the size of the window as the MCMC advances. 
-+ ``mvBetaSimplex(root_frequencies, alpha=0.5, weight=2)``  this function proposes two values in the interval (0,1) that added result in 1. They represent the frequency at which we would find the state 0 or the state 1 at the root of the tree.
++ ``mvDirichletSimplex(root_frequencies,tune=true,weight=2)``  this function proposes two values in the interval (0,1) that added result in 1. They represent the frequency at which we would find the state 0 or the state 1 at the root of the tree.
 + ``mvElementSwapSimplex(root_frequencies, weight=3)`` this function proposes to swap the frequencies. For example, if we had (0.4, 0.6), elementswap exchanges the position of those values (0.6,0.4).
 
 Just as discussed in the lectures, each of this proposals are going to contribute to the posterior odds, and if those improve they may get accepted.
@@ -256,7 +256,7 @@ monitors.append(mnModel(filename="output/hisse_pollination.log", printgen=1))
 monitors.append(mnScreen(printgen=10, q_01A, q_10A, speciation, extinction))
 
 ## This monitor tracks what is going on with the ancestral state reconstruction at each node
-monitors.append(mnJointConditionalAncestralState(tree=hisse cdbdp=timetree, type="NaturalNumbers", printgen=1000, withTips=true, withStartStates=false, filename="output/anc_states_hisse_pollination.log"))
+monitors.append(mnJointConditionalAncestralState(tree=hisse, cdbdp=hisse, type="NaturalNumbers", printgen=1000, withTips=true, withStartStates=false, filename="output/anc_states_hisse_pollination.log"))
 
 ## This monitor creates stochastic character maps (evolution over the branches)- this is very slow for very complicated models
 
@@ -266,7 +266,7 @@ monitors.append(mnJointConditionalAncestralState(tree=hisse cdbdp=timetree, type
 
 + ``mnModel`` Saves the samples of the posterior distribution created by the MCMC algorithm
 + ``mnScreen`` Prints in screen so you know something is happening
-+ ``mnJointConditionalAncestralState`` Saves the ancestral state reconstruction utilizing the marginal posterior probability (be careful this is very different to what phytools or other software does) utilizando la probabilidad posterior marginal
++ ``mnJointConditionalAncestralState`` Saves the ancestral state reconstruction utilizing the marginal posterior probability (be careful this is very different to what phytools or other software does).
 + ``mnStochasticCharacterMap`` calculates stochastic character maps that are transitions that occur along the branches. This is very important yet very difficult to calculate. 
 
 

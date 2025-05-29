@@ -157,6 +157,7 @@ extinction[index] := exp( extinction_alpha[i] + extinction_beta[j-1] )
 ### Create a constant variable with the prior probabilities of each rate category at the root.
 root_frequencies ~ dnDirichlet(rep(1,NUM_RATES))
 moves.append(mvDirichletSimplex(root_frequencies,tune=true,weight=2))
+moves.append(mvElementSwapSimplex(root_frequencies, weight=3))
 
 
 ### Sampling fraction
@@ -192,7 +193,7 @@ mymodel = model(rate_matrix)
 
 ### set up the monitors that will output parameter values to file and screen
 monitors.append(mnModel(filename="output/hisse_pollination.log", printgen=1))
-monitors.append(mnJointConditionalAncestralState(tree=hisse cdbdp=timetree, type="NaturalNumbers", printgen=1000, withTips=true, withStartStates=false, filename="output/anc_states_hisse_pollination.log"))
+monitors.append(mnJointConditionalAncestralState(tree=hisse, cdbdp=hisse, type="NaturalNumbers", printgen=1000, withTips=true, withStartStates=false, filename="output/anc_states_hisse_pollination.log"))
 monitors.append(mnScreen(printgen=10, q_01A, q_10A, speciation, extinction))
 
 
