@@ -35,7 +35,7 @@ We will implement this Mk2 model in Revbayes and leverage the Bayesian framework
 # Number of states
 NUM_STATES=2
 
-# Proposal moves (moves), and monitors for inference (the results of an MCMC)
+# Proposals (moves), Monitors(follow the inference from the MCMC)
 moves = VectorMoves()
 monitors = VectorMonitors()
 ```
@@ -44,8 +44,7 @@ monitors = VectorMonitors()
 
 ``` 
 ### Phylogenetic tree
-observed_phylogeny <- readTrees("poliniza_arbol.tre")[1]
-
+observed_phylogeny <- readTrees("data/poliniza_arbol.tre")[1]
 
 ## Data
 ## 0 = Insect pollinated
@@ -64,13 +63,15 @@ taxa <- observed_phylogeny.taxa()
 We will use the Gamma distribution as  **prior distribution** for the rates of transition. 
 
 ```
+#### Prior distribution for transition rates
+
 shape_pr := 0.5
 rate_pr = observed_phylogeny.treeLength()/5
 
-q_01 ~ dnGamma(shape=shape_pr, rate=rate_pr) ### Insecto a Viento
-q_10 ~ dnGamma(shape=shape_pr, rate=rate_pr) ### Viento a Insecto
+q_01 ~ dnGamma(shape=shape_pr, rate=rate_pr) ### Insect to Wind
+q_10 ~ dnGamma(shape=shape_pr, rate=rate_pr) ### Wind to insect
 
-# En el vector moves vamos guardando las propuestas
+# We start storing the proposals for each parameter. These represent how we are going to explore the parameter space 
 moves.append(mvScale( q_01, weight=2 ))
 moves.append(mvScale( q_10, weight=2 ))
 ```
@@ -82,16 +83,16 @@ What we have done is represented in the graphical model for revBayes like this.
 4. Build the CTMC called in comparative methods the Mk2 (Markov model with 2 states) using its essential tool: the Q-matrix
 
 ```
-### Mk2 starts with a matrix that is 2x2 filled with zeros. 
+### Building the Q-matrix for the Mk2.
+#First start with a matrix full of zeros
 for (i in 1:2){
 for (j in 1:2){
         q[i][j]:= 0.0
     }
 }
-####
+#### Then start filling the matrix
 q[1][2] := q_01
 q[2][1] := q_10
-
 
 # The Q-matrix is an infinitesimal matrix, meaning it is a derivative of the probability matrix. 
 
@@ -121,7 +122,7 @@ moves.append(mvElementSwapSimplex(root_frequencies, weight=3))
 As shown in the previous image we have a graphical model with disconnected nodes. In order to connect them we have to merge them under a probability distribution for phylogenetic trees. This probability distribution is the one that internally calculates the likelihood function throughout the tree and considers the prior distribution for the parameters throughout the structure of the tree. 
 
 ```
-#  As it name indicates the PhyloCTMC probability distribution creates a  Markov model over the phylogenetic tre
+# The Mk2 model has an stochastic phylogenetic distribution called PhyloCTMC (phylogenetic continuous time markov chain)
 
 ctmc ~ dnPhyloCTMC(Q= rate_matrix, tree=observed_phylogeny, nSites=1, rootFreq=root_frequencies, type="NaturalNumbers")
 ```
@@ -133,7 +134,7 @@ ctmc ~ dnPhyloCTMC(Q= rate_matrix, tree=observed_phylogeny, nSites=1, rootFreq=r
 Up to this point we have ignored the data. Of course, we need the data to calculate the likelihood. In RevBayes we do this throughout a function called ``clamp()``. This makes our  ``dnPhyloCTMC()`` consider the values on the tips of the tree
 
 ``` 
-# Clamp or data to the mode;
+#Fix our observations to our stochastic model
 ctmc.clamp(data)
 ```
 ![](images/clamp.png)
@@ -157,7 +158,8 @@ Just as discussed in the lectures, each of this proposals are going to contribut
 This is an important step for RevBayes software. We want to "store" the whole graphical object to be able to manipulate it. The function `model()` allows us to do this. 
 
 ``` 
-# Mymodel is like a box that takes care of the whole graphical model
+# mymodel is a "box" that stores the whole graphical model properties
+
 mymodel = model(rate_matrix)
 ```
 
@@ -190,7 +192,7 @@ monitors.append(mnJointConditionalAncestralState(filename="output/asr_mk2_polini
 
 **Remember to always run two chains to show that the MCMC has converge**
 ``` 
-#### nruns=2, running this for 50,000 generations. 
+#### We always run TWO times our MCMC at the very least to check for convergence
 
 mymcmc = mcmc(mymodel, monitors, moves, nruns=2, moveschedule="random")
 mymcmc.run(50000)
@@ -199,11 +201,15 @@ mymcmc.run(50000)
 5. Create summaries of your ancestral state reconstruction and stochastic maps
 
 ```
-# Generating an marginal posterior distribution for each of the nodes to calculate their ancestral state reconstruction
+# Once we have the ancestral state reconstruction runs we read them
 anc_state_trace = readAncestralStateTrace("output/asr_mk2_polinizador_run_1.log")
+
+# Then summarize them using the MARGINAL of JOINT
 ancestralStateTree(observed_phylogeny, anc_state_trace, "output/asr_mk2_polinizador.tree",summary_statistic="mean", reconstruction="marginal")
 
-# Obtaining the maximum a posteriori map from all the maps generated during my MCMC
-anc_state_trace = readAncestralStateTrace("output/stochmap_mk2_polinizador_run_1.log")
-characterMapTree(observed_phylogeny, anc_state_trace, character_file="output/stochmap_mk2_polinizador.tree", posterior_file="output/posteriorpole.tree", burnin=1000, reconstruction="marginal")
+# Summarize stochastic maps (but we will do it again in R through revgadets so not as critical)
+
+#anc_state_trace = readAncestralStateTrace("output/stochmap_mk2_polinizador_run_1.log")
+#characterMapTree(observed_phylogeny, anc_state_trace, character_file="output/stochmap_mk2_polinizador.tree", posterior_file="output/posteriorpole.tree", burnin=1000, reconstruction="marginal")
+q()
 ```
