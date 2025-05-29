@@ -97,21 +97,24 @@ For more complex models like HiSSE I always prefer to plot them with violins to 
 ## Transition rate plots
 
 ```
-#ggplot2
+# ggplot2
 
 traitcols<-c("#3D348B","#7678ED","#F18701", "#F35B04")
 
 hisse<- read.table("hisse_pollination_run_1.log", header=TRUE)
-hisse<- hisse[-seq(1,15000,1),] # burn-in removal
+hisse<- hisse[-seq(1,15000,1),] # make sure you are cutting the burn in!
 
 transition_rates<- data.frame(dens=c(hisse$q_01A,hisse$q_01B, hisse$q_10A, hisse$q_10B) ,rate=rep(c("q_01A","q_01B","q_10A","q_10B"),each=length(hisse$q_01A)))
 
 violin_transitions<- ggplot(transition_rates,aes(x=rate,y=dens, fill=rate))+
   geom_violin(trim=FALSE)+
-  labs(title="Main state transition rates")+
+  labs(title="Transition Rates")+
   scale_fill_manual( values = traitcols)+
+  xlab("Transition type")+
+  ylab("Rate")+
   theme_classic()
 violin_transitions
+
 
 ## Hidden state transitions
 
@@ -119,19 +122,18 @@ hidden_rates<- data.frame(dens=c(hisse$hidden_rate1,hisse$hidden_rate2) ,rate=re
 
 violin_hidden<- ggplot(hidden_rates,aes(x=rate,y=dens, fill=rate))+
   geom_violin(trim=FALSE)+
-  labs(title="Hidden state transitions")+
+  labs(title="Hidden state transitions ")+
   scale_fill_manual( values = traitcols[1:2])+
+  xlab("Transition type")+
+  ylab("Rate")+
   theme_classic()
 violin_hidden
-
 ```
 
 ## Net diversification rates
 
 
 ```
-#ggplot2
-
 divcols<-c("#E63946","#F3A5AB","#1D3557", "#457B9D")
 
 # In RevBayes 1=0A, 2=1A, 3=0B, and 4=1B
@@ -141,6 +143,8 @@ violin_diversification<- ggplot(netdiversification_rates,aes(x=rate,y=dens, fill
   geom_violin(trim=FALSE)+
   labs(title="Tasas de transicion")+
   scale_fill_manual( values = divcols)+
+  xlab("")+
+  ylab("Rate")+
   theme_classic()
 violin_diversification
 ```
@@ -156,20 +160,20 @@ We build the test statistics for the differences between net diversifications. W
 If these differences have probability larger than 5% of being zero then this means diversification is not correlated to our traits. 
 
 ```
-# ggplot2
-
 difcols<-c("#FF006E","#FFC2DC")
 T_diff<- data.frame(dens=c((hisse$speciation.1.-hisse$extinction.1.)-(hisse$speciation.2.-hisse$extinction.2.),(hisse$speciation.3.-hisse$extinction.3.)-(hisse$speciation.4.-hisse$extinction.4.)),difference=rep(c("T_A","T_B"),each=length(hisse$speciation.1.)))
 
-violin_diff<- ggplot(T_diff,aes(x=difference,y=dens, fill=difference))+
+violin_difference<- ggplot(T_diff,aes(x=difference,y=dens, fill=difference))+
   geom_violin(trim=FALSE)+
   labs(title="Test statistics")+
   scale_fill_manual( values = difcols)+
   geom_hline(yintercept = 0,linetype="dashed",lwd=1)+
+  xlab("Test statistic")+
+  ylab("Difference")+
   theme_classic()
 
+violin_difference
 # 0 crosses these posterior distributions, but we have to check the probability.
-violin_diff
 
 ```
 
@@ -177,10 +181,11 @@ Formalizing the hypothesis test
 $$H_0: T_A=0$$ and  $$T_B=0$$
 
 ```
-#dplyr
 
-quantiles_T <- T_diff %>% group_by(difference)%>%reframe(res=quantile(dens,probs=c(0.025,0.975)))
-quantiles_T
+# dplyr
+
+quantile_diff<- T_diff %>% group_by(difference)%>%reframe(res=quantile(dens,probs=c(0.025,0.975)))
+quantile_diff
 ```
 
 Let's observe that the credibility interval at 95% for $$T_A$$ is (-0.219, 0.425) and for $$T_B$$ is (-0.554, 0.0766). Since 0 belongs to these two intervals then $$P(H_0\lvert Datos)>0.05$$, this means that the tempo of diversification for 0 and 1 is equal. **Important**: Note that in a Bayesian framework we do not use p-values, we don't use the word *significance* or *rejection*. We don't use those words because we are using probability distributions and not likelihood. Be careful when writing your results.
@@ -195,8 +200,7 @@ We build test statistics for the net diversification differences between A and B
 If these differences are 0 with probability larger than 0.05 then we have that there are changes in the tempo of diversification due to something else that we didn't directly measure. 
 
 ```
-# ggplot2
-
+#ggplot2
 difcols<-c("#1DB32C","#BFEEC3")
 T_diff<- data.frame(dens=c((hisse$speciation.1.-hisse$extinction.1.)-(hisse$speciation.3.-hisse$extinction.3.),(hisse$speciation.2.-hisse$extinction.2.)-(hisse$speciation.4.-hisse$extinction.4.)),difference=rep(c("T_0","T_1"),each=length(hisse$speciation.1.)))
 
@@ -205,11 +209,13 @@ violin_difference<- ggplot(T_diff,aes(x=difference,y=dens, fill=difference))+
   labs(title="Test statistics")+
   scale_fill_manual( values = difcols)+
   geom_hline(yintercept = 0,linetype="dashed",lwd=1)+
+  xlab("Test statistic")+
+  ylab("Differences")+
   theme_classic()
 
-# Observemos que 0 cruza la diferencia entre las tasas lo que quiere decir que pueden ser iguales
 violin_difference
 
+# Observemos que 0 cruza la diferencia entre las tasas lo que quiere decir que pueden ser iguales
 ```
 
 Formalizing the hypothesis testing
@@ -218,8 +224,8 @@ $$ H_0: T_0=0$$ and  $$T_1=0$$
 ```
 # dplyr
 
-quantiles_T <- T_diff %>% group_by(difference)%>%reframe(res=quantile(dens,probs=c(0.025,0.975)))
-quantiles_T
+quantile_diff <- T_diff %>% group_by(difference)%>%reframe(res=quantile(dens,probs=c(0.025,0.975)))
+quantile_diff
 ```
 
 We see that the credible interval at 95% for $$T_0$$ is (-0.488, -0.214) and for $$T_1$$ es (-0.989, -0.321). Then, zero **does not** belong to these intervals then $$P(H_0\lvert Datos)< 0.05$$. This means, that the tempo of diversification is correlated to the hidden states. This result along with the previous one indicate that the correct model of state-dependent diversification for this system is the CID-2. 

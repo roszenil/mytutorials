@@ -1,19 +1,21 @@
 
-install.packages("devtools")
-install.packages("coda")
-install.packages("phytools")
-install.packages ("ggplot2")
+# install.packages("devtools")
+# install.packages("coda")
+# install.packages("phytools")
+# install.packages ("ggplot2")
+# 
+# if (!require("BiocManager", quietly = TRUE))
+# install.packages("BiocManager")
+# BiocManager::install("treeio")
+# 
+# 
+# if (!require("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install("ggtree")
+# 
+# devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
 
-if (!require("BiocManager", quietly = TRUE))
-install.packages("BiocManager")
-BiocManager::install("treeio")
 
-
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install("ggtree")
-
-devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
 library(coda)
 library(RevGadgets)
 library(phytools)
@@ -57,10 +59,13 @@ mk2<- mk2[-seq(1,5000,1),] # burn in
 
 transition_rates<- data.frame(dens=c(mk2$q_01,mk2$q_10),rate=rep(c("q_01","q_10"),each=length(mk2$q_01)))
 
+
 violin_transitions<- ggplot(transition_rates,aes(x=rate,y=dens, fill=rate))+
   geom_violin(trim=FALSE)+
   labs(title="Transition rates")+
   scale_fill_manual( values = traitcols)+
+  xlab("Transition type")+
+  ylab("Rate")+
   theme_classic()
 violin_transitions
 
@@ -68,8 +73,10 @@ D<- data.frame(dens=(mk2$q_01-mk2$q_10),rate=rep(c("Difference"),length(mk2$q_01
 
 violin_difference<- ggplot(D,aes(x=rate,y=dens, fill=rate))+
   geom_violin(trim=FALSE)+
-  labs(title="Prueba de hipótesis")+
+  labs(title="Hypothesis testing")+
   scale_fill_manual( values = "hotpink")+
+  xlab("Test Statistic")+
+  ylab("Difference")+
   geom_hline(yintercept = 0,linetype="dashed",lwd=1)+
   theme_classic()
 
@@ -85,13 +92,15 @@ plotAncStatesMAP(t = anc_states, tree_layout="rectangular",
                  state_transparency = 0.5,
                  node_size = c(0.1, 5),
                  tip_labels_size = 2,
-                 tip_states_size=2)
+                 tip_states_size=2,
+                 node_color=c("red","blue"))
 
 plotAncStatesPie(t=  anc_states,
                  state_transparency = 0.8,
-                 node_labels_size=  5) 
+                 node_labels_size=  5,
+                 pie_colors=c("red","blue")) 
 
-mycolors= setNames(c("blue","darkorange"),c("0","1"))
+mycolors= setNames(c("red","blue"),c("0","1"))
 file <- "poliniza_arbol.nex" #Has to be the nexus file as given by RevBayes
 pol.tree <- readTrees(paths = file)[[1]][[1]]
 
@@ -103,3 +112,4 @@ stoch_map_df <- processStochMaps(pol.tree,
                                  burnin = 0.1)
 
 plotStochMaps(tree=pol.tree,maps=stoch_map_df,tip_labels_size=0.5,colors=mycolors)
+

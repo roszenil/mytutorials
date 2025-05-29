@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="sse_modelsprobabilites.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path37879" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path37873" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path37852" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect681"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect649"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect643"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect629"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect617"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect583"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect577"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect563"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect551"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect517"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect511"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect497"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect485"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect479"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect457"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect451"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect437"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect425"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect419"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1409"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1377"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1373"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1361"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1351"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1319"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1315"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1303"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1293"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1207"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1187"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1183"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1171"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1161"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1157"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1153"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1149"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect1129"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1125"
+       is_visible="true" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path838"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect827"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect817"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.56405197"
+     inkscape:cx="960.90436"
+     inkscape:cy="2700.9923"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="772"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:0.46600001;fill:none;stroke:#afafaf;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 58.799295,7.0125614 71.360961,36.412212"
+       id="path1147"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1149"
+       inkscape:original-d="M 58.799295,7.0125614 71.360961,36.412212"
+       sodipodi:nodetypes="cc"
+       transform="translate(1.6036172)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       id="path815"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect817"
+       inkscape:original-d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.300652"
+       y="96.280579"
+       id="text821"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan819"
+         x="44.300652"
+         y="96.280579"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583">Clade</tspan><tspan
+         sodipodi:role="line"
+         x="44.300652"
+         y="103.33614"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan823">N</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="M 10.423511,11.556144 10.156242,112.31676"
+       id="path825"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect827"
+       inkscape:original-d="M 10.423511,11.556144 10.156242,112.31676"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1115"
+       y="119.8003"
+       x="11.15923"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         id="tspan1113"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="119.8003"
+         x="11.15923"
+         sodipodi:role="line">Present</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-65.323395"
+       y="8.9978514"
+       id="text1121"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1119"
+         x="-65.323395"
+         y="8.9978514"
+         style="stroke-width:0.264583">Time</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 10.156242,47.9048 79.913589,-1e-6"
+       id="path1123"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1125"
+       inkscape:original-d="m 10.156242,47.9048 79.913589,-1e-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 10.156242,47.9048 79.379049,0.267269"
+       inkscape:path-effect="#path-effect1129"
+       inkscape:connector-curvature="0"
+       id="path1127"
+       d="m 10.156242,47.9048 79.379049,0.267269"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       transform="translate(0.53453906,-6.4144687)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="93.553749"
+       y="49.241142"
+       id="text1133"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1131"
+         x="93.553749"
+         y="49.241142"
+         style="stroke-width:0.264583">t </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="92.484673"
+       y="42.826675"
+       id="text1137"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1135"
+         x="92.484673"
+         y="42.826675"
+         style="stroke-width:0.264583">t+Δt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       x="101.91563"
+       y="46.291798"
+       id="text1141"
+       transform="scale(0.99398856,1.0060478)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1139"
+         x="101.91563"
+         y="46.291798"
+         style="font-size:8.42802px;stroke-width:0.197532">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.98627"
+       y="45.232101"
+       id="text1145"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1143"
+         x="107.98627"
+         y="45.232101"
+         style="stroke-width:0.264583">Δt is a tiny tiny interval</tspan></text>
+    <path
+       transform="matrix(-1,0,0,1,119.20221,0)"
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="M 58.799295,7.0125614 100.22607,111.24768"
+       inkscape:path-effect="#path-effect1153"
+       inkscape:connector-curvature="0"
+       id="path1151"
+       d="M 58.799295,7.0125614 100.22607,111.24768"
+       style="fill:none;stroke:#afafaf;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:0.319"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:original-d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       inkscape:path-effect="#path-effect1161"
+       inkscape:connector-curvature="0"
+       id="path1159"
+       d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(-1.0690781,143.25647)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1167"
+       y="239.53705"
+       x="43.231575"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="239.53705"
+         x="43.231575"
+         id="tspan1163"
+         sodipodi:role="line">Clade</tspan><tspan
+         id="tspan1165"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="246.59261"
+         x="43.231575"
+         sodipodi:role="line">N</tspan></text>
+    <path
+       inkscape:original-d="M 10.423511,11.556144 10.156242,112.31676"
+       inkscape:path-effect="#path-effect1171"
+       inkscape:connector-curvature="0"
+       id="path1169"
+       d="M 10.423511,11.556144 10.156242,112.31676"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       transform="translate(-1.0690781,143.25647)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="10.090152"
+       y="263.05676"
+       id="text1175"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         x="10.090152"
+         y="263.05676"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1173">Present</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text1179"
+       y="7.9287734"
+       x="-208.57986"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="stroke-width:0.264583"
+         y="7.9287734"
+         x="-208.57986"
+         id="tspan1177"
+         sodipodi:role="line">Time</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 10.156242,47.9048 79.913589,-1e-6"
+       inkscape:path-effect="#path-effect1183"
+       inkscape:connector-curvature="0"
+       id="path1181"
+       d="m 10.156242,47.9048 79.913589,-1e-6"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       transform="translate(-0.26726952,142.72193)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       transform="translate(-0.53453909,136.842)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 10.156242,47.9048 79.379049,0.267269"
+       id="path1185"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1187"
+       inkscape:original-d="m 10.156242,47.9048 79.379049,0.267269"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1191"
+       y="192.4976"
+       x="92.484673"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="stroke-width:0.264583"
+         y="192.4976"
+         x="92.484673"
+         id="tspan1189"
+         sodipodi:role="line">t </tspan></text>
+    <text
+       id="text1195"
+       y="186.08315"
+       x="91.415596"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="stroke-width:0.264583"
+         y="186.08315"
+         x="91.415596"
+         id="tspan1193"
+         sodipodi:role="line">t+Δt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.859333"
+       y="182.60864"
+       id="text1215"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1213"
+         x="55.859333"
+         y="182.60864"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583">Diploid= 0</tspan></text>
+    <text
+       id="text1219"
+       y="195.1703"
+       x="53.453907"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="195.1703"
+         x="53.453907"
+         id="tspan1217"
+         sodipodi:role="line">Diploid= 0</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#0000fa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1221"
+       cx="53.721176"
+       cy="184.61316"
+       rx="1.0690781"
+       ry="1.2027128"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       ry="1.2027128"
+       rx="1.0690781"
+       cy="190.43391"
+       cx="51.07534"
+       id="ellipse1223"
+       style="opacity:1;fill:#0000fa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       transform="scale(0.99398856,1.0060478)"
+       id="text1227"
+       y="188.42142"
+       x="100.84008"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-size:8.42802px;stroke-width:0.197532"
+         y="188.42142"
+         x="100.84008"
+         id="tspan1225"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       id="text1231"
+       y="188.2213"
+       x="106.91719"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="188.2213"
+         x="106.91719"
+         id="tspan1229"
+         sodipodi:role="line">In Δt nothing happened</tspan></text>
+    <path
+       transform="translate(-1.0690781,266.55232)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       id="path1291"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1293"
+       inkscape:original-d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="43.231575"
+       y="362.83246"
+       id="text1299"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1295"
+         x="43.231575"
+         y="362.83246"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583">Clade</tspan><tspan
+         sodipodi:role="line"
+         x="43.231575"
+         y="369.888"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1297">N</tspan></text>
+    <path
+       transform="translate(-1.0690781,266.55232)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 10.423511,11.556144 10.156242,112.31676"
+       id="path1301"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1303"
+       inkscape:original-d="M 10.423511,11.556144 10.156242,112.31676"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1307"
+       y="386.3522"
+       x="10.090152"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         id="tspan1305"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="386.3522"
+         x="10.090152"
+         sodipodi:role="line">Present</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-331.87534"
+       y="7.9287734"
+       id="text1311"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1309"
+         x="-331.87534"
+         y="7.9287734"
+         style="stroke-width:0.264583">Time</tspan></text>
+    <path
+       transform="translate(-0.26726952,266.01778)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 10.156242,47.9048 79.913589,-1e-6"
+       id="path1313"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1315"
+       inkscape:original-d="m 10.156242,47.9048 79.913589,-1e-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 10.156242,47.9048 79.379049,0.267269"
+       inkscape:path-effect="#path-effect1319"
+       inkscape:connector-curvature="0"
+       id="path1317"
+       d="m 10.156242,47.9048 79.379049,0.267269"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       transform="translate(-0.53453909,260.13785)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="92.484673"
+       y="315.79309"
+       id="text1323"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1321"
+         x="92.484673"
+         y="315.79309"
+         style="stroke-width:0.264583">t </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="91.415596"
+       y="309.37866"
+       id="text1327"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1325"
+         x="91.415596"
+         y="309.37866"
+         style="stroke-width:0.264583">t+Δt</tspan></text>
+    <text
+       id="text1331"
+       y="305.90414"
+       x="55.859333"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="305.90414"
+         x="55.859333"
+         id="tspan1329"
+         sodipodi:role="line">Diploid= 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="53.453907"
+       y="318.46585"
+       id="text1335"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1333"
+         x="53.453907"
+         y="318.46585"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff0000;fill-opacity:1;stroke-width:0.264583">Polyploid= 1</tspan></text>
+    <ellipse
+       ry="1.2027128"
+       rx="1.0690781"
+       cy="307.90866"
+       cx="53.721176"
+       id="ellipse1337"
+       style="opacity:1;fill:#0200ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse1339"
+       cx="51.07534"
+       cy="313.72943"
+       rx="1.0690781"
+       ry="1.2027128"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       x="100.84008"
+       y="310.97552"
+       id="text1343"
+       transform="scale(0.99398856,1.0060478)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1341"
+         x="100.84008"
+         y="310.97552"
+         style="font-size:8.42802px;stroke-width:0.197532">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="106.91719"
+       y="311.51682"
+       id="text1347"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1345"
+         x="106.91719"
+         y="311.51682"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583">In Δt a polyploidy event happened</tspan></text>
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:original-d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       inkscape:path-effect="#path-effect1351"
+       inkscape:connector-curvature="0"
+       id="path1349"
+       d="M 64.144686,17.970612 25.925144,111.78222 64.144687,112.04949 44.099472,66.880937"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(-1.6036172,386.28907)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1357"
+       y="482.56921"
+       x="42.697037"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="482.56921"
+         x="42.697037"
+         id="tspan1353"
+         sodipodi:role="line">Clade</tspan><tspan
+         id="tspan1355"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="489.62476"
+         x="42.697037"
+         sodipodi:role="line">N</tspan></text>
+    <path
+       inkscape:original-d="M 10.423511,11.556144 10.156242,112.31676"
+       inkscape:path-effect="#path-effect1361"
+       inkscape:connector-curvature="0"
+       id="path1359"
+       d="M 10.423511,11.556144 10.156242,112.31676"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       transform="translate(-1.6036172,386.28907)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="9.5556126"
+       y="506.08896"
+       id="text1365"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         x="9.5556126"
+         y="506.08896"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1363">Present</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text1369"
+       y="7.3942342"
+       x="-451.61209"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="stroke-width:0.264583"
+         y="7.3942342"
+         x="-451.61209"
+         id="tspan1367"
+         sodipodi:role="line">Time</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 10.156242,47.9048 79.913589,-1e-6"
+       inkscape:path-effect="#path-effect1373"
+       inkscape:connector-curvature="0"
+       id="path1371"
+       d="m 10.156242,47.9048 79.913589,-1e-6"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       transform="translate(-0.80180858,385.75453)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       transform="translate(-1.0690781,379.8746)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00000003, 3.00000008;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 10.156242,47.9048 79.379049,0.267269"
+       id="path1375"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1377"
+       inkscape:original-d="m 10.156242,47.9048 79.379049,0.267269"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1381"
+       y="435.52985"
+       x="91.950134"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="stroke-width:0.264583"
+         y="435.52985"
+         x="91.950134"
+         id="tspan1379"
+         sodipodi:role="line">t </tspan></text>
+    <text
+       id="text1385"
+       y="429.11542"
+       x="90.881058"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="stroke-width:0.264583"
+         y="429.11542"
+         x="90.881058"
+         id="tspan1383"
+         sodipodi:role="line">t+Δt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.324795"
+       y="425.6409"
+       id="text1389"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1387"
+         x="55.324795"
+         y="425.6409"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583">Diploid= 0</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse1395"
+       cx="53.186638"
+       cy="427.64542"
+       rx="1.0690781"
+       ry="1.2027128"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       ry="1.2027128"
+       rx="1.0690781"
+       cy="433.46619"
+       cx="50.540802"
+       id="ellipse1397"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       transform="scale(0.99398856,1.0060478)"
+       id="text1401"
+       y="429.99249"
+       x="100.30231"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-size:8.42802px;stroke-width:0.197532"
+         y="429.99249"
+         x="100.30231"
+         id="tspan1399"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       id="text1405"
+       y="429.11542"
+       x="106.11538"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="fill:#ffbe00;fill-opacity:1;stroke-width:0.264583"
+         y="429.11542"
+         x="106.11538"
+         id="tspan1403"
+         sodipodi:role="line">In Δt no change in state but a lineage</tspan><tspan
+         style="fill:#ffbe00;fill-opacity:1;stroke-width:0.264583"
+         y="433.52515"
+         x="106.11538"
+         sodipodi:role="line"
+         id="tspan1423"> speciation and a extinction</tspan></text>
+    <path
+       style="fill:none;stroke:#ffbe00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 52.384827,430.36749 12.828937,25.92514"
+       id="path1407"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect1409"
+       inkscape:original-d="m 52.384827,430.36749 12.828937,25.92514"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       id="text1413"
+       y="437.66803"
+       x="22.450644"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="437.66803"
+         x="22.450644"
+         id="tspan1411"
+         sodipodi:role="line">Diploid= 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="80.982666"
+       y="471.52701"
+       id="text1417"><tspan
+         sodipodi:role="line"
+         id="tspan1415"
+         x="80.982666"
+         y="471.52701"
+         style="stroke-width:0.264583">💀</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="61.739265"
+       y="464.84528"
+       id="text1421"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan1419"
+         x="61.739265"
+         y="464.84528"
+         style="font-size:11.2889px;stroke-width:0.264583">☠</tspan></text>
+    <path
+       style="opacity:0.466;fill:none;stroke:#afafaf;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 268.3665,7.0125614 280.92823,36.412212"
+       id="path415"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect419"
+       inkscape:original-d="M 268.3665,7.0125614 280.92823,36.412212"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 272.10829,17.970612 -38.21976,93.811608 38.21976,0.26727 -20.04533,-45.168553"
+       id="path421"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect425"
+       inkscape:original-d="m 272.10829,17.970612 -38.21976,93.811608 38.21976,0.26727 -20.04533,-45.168553"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="252.26149"
+       y="96.280579"
+       id="text431"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         sodipodi:role="line"
+         id="tspan427"
+         x="252.26149"
+         y="96.280579"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583">Clade</tspan><tspan
+         sodipodi:role="line"
+         x="252.26149"
+         y="103.33613"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan429">N</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 218.38681,11.556144 218.11954,112.31676"
+       id="path433"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect437"
+       inkscape:original-d="M 218.38681,11.556144 218.11954,112.31676"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png" />
+    <text
+       id="text441"
+       y="119.8003"
+       x="219.12053"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         id="tspan439"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="119.8003"
+         x="219.12053"
+         sodipodi:role="line">Present</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-65.323395"
+       y="216.95917"
+       id="text445"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         sodipodi:role="line"
+         id="tspan443"
+         x="-65.323395"
+         y="216.95917"
+         style="stroke-width:0.264583">Time</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 218.11954,47.9048 79.91404,-1e-6"
+       id="path447"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect451"
+       inkscape:original-d="m 218.11954,47.9048 79.91404,-1e-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 218.65408,41.490331 79.3795,0.267269"
+       inkscape:path-effect="#path-effect457"
+       inkscape:connector-curvature="0"
+       id="path453"
+       d="m 218.65408,41.490331 79.3795,0.267269"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="301.5152"
+       y="49.241142"
+       id="text461"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         sodipodi:role="line"
+         id="tspan459"
+         x="301.5152"
+         y="49.241142"
+         style="stroke-width:0.264583">t </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="300.44611"
+       y="42.826675"
+       id="text465"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         sodipodi:role="line"
+         id="tspan463"
+         x="300.44611"
+         y="42.826675"
+         style="stroke-width:0.264583">t+Δt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       x="311.13611"
+       y="46.291798"
+       id="text469"
+       transform="scale(0.99398856,1.0060478)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         sodipodi:role="line"
+         id="tspan467"
+         x="311.13611"
+         y="46.291798"
+         style="font-size:8.42802px;stroke-width:0.197532">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="315.94797"
+       y="45.232101"
+       id="text473"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png"><tspan
+         sodipodi:role="line"
+         id="tspan471"
+         x="315.94797"
+         y="45.232101"
+         style="stroke-width:0.264583">Δt is infinitesimal time</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="M 268.3665,7.0125614 226.93949,111.24768"
+       inkscape:path-effect="#path-effect479"
+       inkscape:connector-curvature="0"
+       id="path475"
+       d="M 268.3665,7.0125614 226.93949,111.24768"
+       style="opacity:0.319;fill:none;stroke:#afafaf;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event1.png" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:original-d="m 271.03921,161.22708 -38.21976,93.81161 38.21976,0.26727 -20.04533,-45.16855"
+       inkscape:path-effect="#path-effect485"
+       inkscape:connector-curvature="0"
+       id="path481"
+       d="m 271.03921,161.22708 -38.21976,93.81161 38.21976,0.26727 -20.04533,-45.16855"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png" />
+    <text
+       id="text491"
+       y="239.53705"
+       x="251.19246"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="239.53705"
+         x="251.19246"
+         id="tspan487"
+         sodipodi:role="line">Clade</tspan><tspan
+         id="tspan489"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="246.59261"
+         x="251.19246"
+         sodipodi:role="line">N</tspan></text>
+    <path
+       inkscape:original-d="m 217.31773,154.81261 -0.26727,100.76062"
+       inkscape:path-effect="#path-effect497"
+       inkscape:connector-curvature="0"
+       id="path493"
+       d="m 217.31773,154.81261 -0.26727,100.76062"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="218.05147"
+       y="263.05676"
+       id="text501"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         sodipodi:role="line"
+         x="218.05147"
+         y="263.05676"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan499">Present</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text505"
+       y="215.89012"
+       x="-208.57986"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         style="stroke-width:0.264583"
+         y="215.89012"
+         x="-208.57986"
+         id="tspan503"
+         sodipodi:role="line">Time</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 217.85227,190.62673 h 79.91404"
+       inkscape:path-effect="#path-effect511"
+       inkscape:connector-curvature="0"
+       id="path507"
+       d="m 217.85227,190.62673 h 79.91404"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 217.585,184.7468 79.3795,0.26727"
+       id="path513"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect517"
+       inkscape:original-d="m 217.585,184.7468 79.3795,0.26727"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png" />
+    <text
+       id="text521"
+       y="192.4976"
+       x="300.44611"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         style="stroke-width:0.264583"
+         y="192.4976"
+         x="300.44611"
+         id="tspan519"
+         sodipodi:role="line">t </tspan></text>
+    <text
+       id="text525"
+       y="186.08315"
+       x="299.37704"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         style="stroke-width:0.264583"
+         y="186.08315"
+         x="299.37704"
+         id="tspan523"
+         sodipodi:role="line">t+Δt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="263.82028"
+       y="182.60864"
+       id="text529"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         sodipodi:role="line"
+         id="tspan527"
+         x="263.82028"
+         y="182.60864"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583">Generalist = 0</tspan></text>
+    <text
+       id="text533"
+       y="195.1703"
+       x="261.41479"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="195.1703"
+         x="261.41479"
+         id="tspan531"
+         sodipodi:role="line">Generalist = 0</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#0000fa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse535"
+       cx="261.68207"
+       cy="184.61316"
+       rx="1.0690781"
+       ry="1.2027128"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png" />
+    <ellipse
+       ry="1.2027128"
+       rx="1.0690781"
+       cy="190.43391"
+       cx="259.03619"
+       id="ellipse537"
+       style="opacity:1;fill:#0000fa;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png" />
+    <text
+       transform="scale(0.99398856,1.0060478)"
+       id="text541"
+       y="188.42142"
+       x="310.06052"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         style="font-size:8.42802px;stroke-width:0.197532"
+         y="188.42142"
+         x="310.06052"
+         id="tspan539"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       id="text545"
+       y="188.2213"
+       x="314.87888"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event2.png"><tspan
+         y="188.2213"
+         x="314.87888"
+         sodipodi:role="line"
+         id="tspan11205">Nothing happened in Δt </tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 271.03921,284.52293 -38.21976,93.81161 38.21976,0.26727 -20.04533,-45.16855"
+       id="path547"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect551"
+       inkscape:original-d="m 271.03921,284.52293 -38.21976,93.81161 38.21976,0.26727 -20.04533,-45.16855"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="251.19246"
+       y="362.83246"
+       id="text557"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan553"
+         x="251.19246"
+         y="362.83246"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583">Clade</tspan><tspan
+         sodipodi:role="line"
+         x="251.19246"
+         y="369.888"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan555">N</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 217.31773,278.10846 -0.26727,100.76062"
+       id="path559"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect563"
+       inkscape:original-d="m 217.31773,278.10846 -0.26727,100.76062"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png" />
+    <text
+       id="text567"
+       y="386.3522"
+       x="218.05147"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         id="tspan565"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="386.3522"
+         x="218.05147"
+         sodipodi:role="line">Present</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-331.87534"
+       y="215.89012"
+       id="text571"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan569"
+         x="-331.87534"
+         y="215.89012"
+         style="stroke-width:0.264583">Time</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 217.85227,313.92258 h 79.91404"
+       id="path573"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect577"
+       inkscape:original-d="m 217.85227,313.92258 h 79.91404"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 217.585,308.04265 79.3795,0.26727"
+       inkscape:path-effect="#path-effect583"
+       inkscape:connector-curvature="0"
+       id="path579"
+       d="m 217.585,308.04265 79.3795,0.26727"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="300.44611"
+       y="315.79309"
+       id="text587"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan585"
+         x="300.44611"
+         y="315.79309"
+         style="stroke-width:0.264583">t </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="299.37704"
+       y="309.37866"
+       id="text591"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan589"
+         x="299.37704"
+         y="309.37866"
+         style="stroke-width:0.264583">t+Δt</tspan></text>
+    <text
+       id="text595"
+       y="305.90414"
+       x="263.82028"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="305.90414"
+         x="263.82028"
+         id="tspan593"
+         sodipodi:role="line">Generalist = 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="261.41479"
+       y="318.46585"
+       id="text599"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan597"
+         x="261.41479"
+         y="318.46585"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ff0000;fill-opacity:1;stroke-width:0.264583">Specialized= 1</tspan></text>
+    <ellipse
+       ry="1.2027128"
+       rx="1.0690781"
+       cy="307.90866"
+       cx="261.68207"
+       id="ellipse601"
+       style="opacity:1;fill:#0200ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png" />
+    <ellipse
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse603"
+       cx="259.03619"
+       cy="313.72943"
+       rx="1.0690781"
+       ry="1.2027128"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       x="310.06052"
+       y="310.97552"
+       id="text607"
+       transform="scale(0.99398856,1.0060478)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan605"
+         x="310.06052"
+         y="310.97552"
+         style="font-size:8.42802px;stroke-width:0.197532">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="314.87888"
+       y="311.51682"
+       id="text611"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event3.png"><tspan
+         sodipodi:role="line"
+         id="tspan609"
+         x="314.87888"
+         y="311.51682"
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583">Specialization in  Δt </tspan></text>
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:original-d="m 270.50466,404.25968 -38.21976,93.81161 38.21977,0.26727 -20.04533,-45.16855"
+       inkscape:path-effect="#path-effect617"
+       inkscape:connector-curvature="0"
+       id="path613"
+       d="m 270.50466,404.25968 -38.21976,93.81161 38.21977,0.26727 -20.04533,-45.16855"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <text
+       id="text623"
+       y="482.56921"
+       x="250.65791"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="482.56921"
+         x="250.65791"
+         id="tspan619"
+         sodipodi:role="line">Clade</tspan><tspan
+         id="tspan621"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         y="489.62476"
+         x="250.65791"
+         sodipodi:role="line">N</tspan></text>
+    <path
+       inkscape:original-d="m 216.78318,397.84521 -0.26727,100.76062"
+       inkscape:path-effect="#path-effect629"
+       inkscape:connector-curvature="0"
+       id="path625"
+       d="m 216.78318,397.84521 -0.26727,100.76062"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="217.51694"
+       y="506.08896"
+       id="text633"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         sodipodi:role="line"
+         x="217.51694"
+         y="506.08896"
+         style="font-size:5.64444px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan631">Present</tspan></text>
+    <text
+       transform="rotate(-90)"
+       id="text637"
+       y="215.35558"
+       x="-451.61209"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="stroke-width:0.264583"
+         y="215.35558"
+         x="-451.61209"
+         id="tspan635"
+         sodipodi:role="line">Time</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 217.31773,433.65933 h 79.91404"
+       inkscape:path-effect="#path-effect643"
+       inkscape:connector-curvature="0"
+       id="path639"
+       d="m 217.31773,433.65933 h 79.91404"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 3;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 217.05046,427.7794 79.3795,0.26727"
+       id="path645"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect649"
+       inkscape:original-d="m 217.05046,427.7794 79.3795,0.26727"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <text
+       id="text653"
+       y="435.52985"
+       x="299.91156"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="stroke-width:0.264583"
+         y="435.52985"
+         x="299.91156"
+         id="tspan651"
+         sodipodi:role="line">t </tspan></text>
+    <text
+       id="text657"
+       y="429.11542"
+       x="298.84247"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="stroke-width:0.264583"
+         y="429.11542"
+         x="298.84247"
+         id="tspan655"
+         sodipodi:role="line">t+Δt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="263.43549"
+       y="425.34125"
+       id="text661"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         sodipodi:role="line"
+         id="tspan659"
+         x="263.43549"
+         y="425.34125"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583">Generalist= 0</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse663"
+       cx="261.14749"
+       cy="427.64542"
+       rx="1.0690781"
+       ry="1.2027128"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <ellipse
+       ry="1.2027128"
+       rx="1.0690781"
+       cy="433.46619"
+       cx="258.50162"
+       id="ellipse665"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <text
+       transform="scale(0.99398856,1.0060478)"
+       id="text669"
+       y="429.99249"
+       x="309.52274"
+       style="font-style:normal;font-weight:normal;font-size:2.63376px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.197532"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="font-size:8.42802px;stroke-width:0.197532"
+         y="429.99249"
+         x="309.52274"
+         id="tspan667"
+         sodipodi:role="line">}</tspan></text>
+    <text
+       id="text675"
+       y="429.11542"
+       x="314.07703"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="fill:#ffbe00;fill-opacity:1;stroke-width:0.264583"
+         y="429.11542"
+         x="314.07703"
+         sodipodi:role="line"
+         id="tspan29029">In Δt state doesn't change</tspan><tspan
+         style="fill:#ffbe00;fill-opacity:1;stroke-width:0.264583"
+         y="433.52515"
+         x="314.07703"
+         sodipodi:role="line"
+         id="tspan21228">but a speciation and a extinction</tspan><tspan
+         style="fill:#ffbe00;fill-opacity:1;stroke-width:0.264583"
+         y="437.93488"
+         x="314.07703"
+         sodipodi:role="line"
+         id="tspan21362">happened</tspan></text>
+    <path
+       style="fill:none;stroke:#ffbe00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260.34837,430.36749 12.82901,25.92514"
+       id="path677"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect681"
+       inkscape:original-d="m 260.34837,430.36749 12.82901,25.92514"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png" />
+    <text
+       id="text685"
+       y="438.86664"
+       x="219.02519"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#0000ff;fill-opacity:1;stroke-width:0.264583"
+         y="438.86664"
+         x="219.02519"
+         sodipodi:role="line"
+         id="tspan26283">Generalist= 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="288.94394"
+       y="471.52701"
+       id="text689"><tspan
+         sodipodi:role="line"
+         id="tspan687"
+         x="288.94394"
+         y="471.52701"
+         style="stroke-width:0.264583">💀</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="269.70026"
+       y="464.84528"
+       id="text693"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/event4.png"><tspan
+         sodipodi:role="line"
+         id="tspan691"
+         x="269.70026"
+         y="464.84528"
+         style="font-size:11.2889px;stroke-width:0.264583">☠</tspan></text>
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke-width:2;stroke:#ff0000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path36813"
+       cx="247.44476"
+       cy="569.39355"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke-width:0.264583;fill-opacity:0.99595141;opacity:1"
+       id="ellipse36824"
+       cx="247.44476"
+       cy="569.39355"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke-width:2;stroke:#0000ff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="ellipse36906"
+       cx="339.83997"
+       cy="568.97736"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
+       d="m 266.38292,567.72862 54.9415,0.41622"
+       id="path36941"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 322.98931,576.46929 -56.60639,-0.41621"
+       id="path36943"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="244.21014"
+       y="573.02655"
+       id="text39768"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan39766"
+         style="stroke-width:0.264583"
+         x="244.21014"
+         y="573.02655">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="336.7247"
+       y="571.89087"
+       id="text40432"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan40430"
+         style="stroke-width:0.264583"
+         x="336.7247"
+         y="571.89087">1</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
+       d="M 231.42017,558.98793 208.52789,547.33367"
+       id="path41743"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 236.14981,553.60559 c 0,0 -9.96348,-20.15253 6.45181,-20.89214 16.71807,-0.75326 11.12169,18.61008 11.12169,18.61008"
+       id="path41745"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 348.37195,552.65319 c 0,0 9.96348,-20.15253 -6.45181,-20.89214 -16.71807,-0.75326 -11.12169,18.61008 -11.12169,18.61008"
+       id="path41979"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
+       d="M 231.42017,558.98793 208.52789,547.33367"
+       id="path41981"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 353.75219,557.61123 22.89228,-11.65426"
+       id="path41983"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="286.6716"
+       y="563.34302"
+       id="text42273"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan42271"
+         style="stroke-width:0.264583"
+         x="286.6716"
+         y="563.34302">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan45547">01</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="289.05258"
+       y="586.20056"
+       id="text42489"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan42487"
+         style="stroke-width:0.264583"
+         x="289.05258"
+         y="586.20056">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan47249">10</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="237.14694"
+       y="525.24713"
+       id="text43053"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan43051"
+         style="stroke-width:0.264583"
+         x="237.14694"
+         y="525.24713">λ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan47995">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="336.67245"
+       y="525.72333"
+       id="text43519"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan43517"
+         style="stroke-width:0.264583"
+         x="336.67245"
+         y="525.72333">λ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan48381">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="193.33664"
+       y="545.24744"
+       id="text43831"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan43829"
+         style="stroke-width:0.264583"
+         x="193.33664"
+         y="545.24744">μ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan49163">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="380.00653"
+       y="545.72369"
+       id="text44429"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan44427"
+         style="stroke-width:0.264583"
+         x="380.00653"
+         y="545.72369">μ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan49999">1</tspan></tspan></text>
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse53279"
+       cx="247.44476"
+       cy="615.43176"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="mk2.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.995951;fill-rule:evenodd;stroke-width:0.264583"
+       id="ellipse53281"
+       cx="247.44476"
+       cy="615.43176"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#0000fb;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse53283"
+       cx="339.83997"
+       cy="615.01556"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 266.38292,613.76641 54.9415,0.41622"
+       id="path53285"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 322.98931,622.50708 -56.60639,-0.41621"
+       id="path53287"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="244.21014"
+       y="619.06476"
+       id="text53291"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53289"
+         style="stroke-width:0.264583"
+         x="244.21014"
+         y="619.06476">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="336.7247"
+       y="617.92908"
+       id="text53295"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53293"
+         style="stroke-width:0.264583"
+         x="336.7247"
+         y="617.92908">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="286.6716"
+       y="609.38123"
+       id="text53301"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53299"
+         style="stroke-width:0.264583"
+         x="286.6716"
+         y="609.38123">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan53297">01</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="289.05258"
+       y="632.23877"
+       id="text53307"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/transition.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53305"
+         style="stroke-width:0.264583"
+         x="289.05258"
+         y="632.23877">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan53303">10</tspan></tspan></text>
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse53309"
+       cx="247.44476"
+       cy="663.0575"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/states.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.995951;fill-rule:evenodd;stroke-width:0.264583"
+       id="ellipse53311"
+       cx="247.44476"
+       cy="663.0575"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/states.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse53313"
+       cx="339.83997"
+       cy="662.6413"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/states.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="244.21014"
+       y="666.69049"
+       id="text53317"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/states.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53315"
+         style="stroke-width:0.264583"
+         x="244.21014"
+         y="666.69049">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="336.7247"
+       y="665.55481"
+       id="text53321"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/states.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53319"
+         style="stroke-width:0.264583"
+         x="336.7247"
+         y="665.55481">1</tspan></text>
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse1"
+       cx="246.63803"
+       cy="746.79547"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="hisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.995951;fill-rule:evenodd;stroke-width:0.264583"
+       id="ellipse2"
+       cx="246.63803"
+       cy="746.79547"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse3"
+       cx="339.03323"
+       cy="746.37927"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 265.57619,745.1305 54.9415,0.41622"
+       id="path3"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 322.18258,753.87117 -56.60639,-0.41621"
+       id="path4"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="239.17014"
+       y="750.42847"
+       id="text4"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="stroke-width:0.264583"
+         x="239.17014"
+         y="750.42847">0A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="332.74292"
+       y="749.29279"
+       id="text5"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="stroke-width:0.264583"
+         x="332.74292"
+         y="749.29279">1A</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="M 230.61344,736.38981 207.72116,724.73555"
+       id="path5"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 235.34308,731.00747 c 0,0 -9.96348,-20.15253 6.45181,-20.89214 16.71807,-0.75326 11.12169,18.61008 11.12169,18.61008"
+       id="path6"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 347.56522,730.05507 c 0,0 9.96348,-20.15253 -6.45181,-20.89214 -16.71807,-0.75326 -11.12169,18.61008 -11.12169,18.61008"
+       id="path7"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 352.94546,735.01311 22.89228,-11.65426"
+       id="path9"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="285.86487"
+       y="740.74493"
+       id="text10"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:0.264583"
+         x="285.86487"
+         y="740.74493">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9">01</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="288.24585"
+       y="764.66083"
+       id="text12"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="stroke-width:0.264583"
+         x="288.24585"
+         y="764.66083">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan11">10</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="236.34021"
+       y="702.64905"
+       id="text14"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="stroke-width:0.264583"
+         x="236.34021"
+         y="702.64905">λ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan13">0A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="335.86572"
+       y="703.12524"
+       id="text16"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="stroke-width:0.264583"
+         x="335.86572"
+         y="703.12524">λ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan15">1A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="189.88411"
+       y="722.64935"
+       id="text18"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="stroke-width:0.264583"
+         x="189.88411"
+         y="722.64935">μ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan17">0A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="379.1998"
+       y="723.12561"
+       id="text20"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="stroke-width:0.264583"
+         x="379.1998"
+         y="723.12561">μ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan19">1A</tspan></tspan></text>
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse20"
+       cx="247.65038"
+       cy="841.47235"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.995951;fill-rule:evenodd;stroke-width:0.264583"
+       id="ellipse21"
+       cx="247.65038"
+       cy="842.00153"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse22"
+       cx="340.04556"
+       cy="842.1145"
+       rx="16.440821"
+       ry="16.23271"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 266.58853,840.33655 54.9415,0.41622"
+       id="path22"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 323.19492,849.07722 -56.60639,-0.41621"
+       id="path23"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="240.71164"
+       y="845.63452"
+       id="text23"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="stroke-width:0.264583"
+         x="240.71164"
+         y="845.63452">0B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="333.75525"
+       y="844.49884"
+       id="text24"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="stroke-width:0.264583"
+         x="333.75525"
+         y="844.49884">1B</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 230.25223,846.23951 -22.89228,11.65426"
+       id="path24"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 254.15303,860.77517 c 0,0 5.78201,21.72473 -10.45543,19.20395 -16.53694,-2.56728 -7.22234,-20.44175 -7.22234,-20.44175"
+       id="path25"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 334.7431,859.35699 c 0,0 -9.96348,20.15253 6.45181,20.89214 16.71807,0.75326 11.12169,-18.61008 11.12169,-18.61008"
+       id="path26"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 357.16275,845.76995 22.89228,11.65426"
+       id="path28"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="286.8772"
+       y="835.95099"
+       id="text29"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         style="stroke-width:0.264583"
+         x="286.8772"
+         y="835.95099">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan28">01</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="289.25818"
+       y="861.98358"
+       id="text31"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         style="stroke-width:0.264583"
+         x="289.25818"
+         y="861.98358">q<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan30">10</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="232.78693"
+       y="889.16779"
+       id="text33"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         style="stroke-width:0.264583"
+         x="232.78693"
+         y="889.16779">λ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan32">0B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="340.9061"
+       y="891.11786"
+       id="text35"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         style="stroke-width:0.264583"
+         x="340.9061"
+         y="891.11786">λ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan34">1B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="188.80025"
+       y="862.29016"
+       id="text37"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         style="stroke-width:0.264583"
+         x="188.80025"
+         y="862.29016">μ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan36">0B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="384.33276"
+       y="861.82733"
+       id="text39"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="stroke-width:0.264583"
+         x="384.33276"
+         y="861.82733">μ<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan38">1B</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 344.49081,768.43628 -0.41622,54.9415"
+       id="path39"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 335.75014,825.04267 0.41621,-56.60639"
+       id="path40"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 251.17145,765.90543 -0.41622,54.9415"
+       id="path41"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+       d="m 242.43078,822.51182 0.41621,-56.60639"
+       id="path42"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.8;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle;fill:none;fill-opacity:0.351955;stroke-width:1.5;stroke-dasharray:2, 1"
+       x="284.05338"
+       y="789.82416"
+       id="text42"><tspan
+         sodipodi:role="line"
+         id="tspan42"
+         style="stroke-width:1.5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.8;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;text-anchor:middle;fill:none;fill-opacity:0.351955;stroke-width:1.5;stroke-dasharray:2, 1"
+       x="262.5412"
+       y="784.19415"
+       id="text43"><tspan
+         sodipodi:role="line"
+         id="tspan43"
+         style="stroke-width:1.5" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="292.93948"
+       y="740.1402"
+       id="text44"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan44"
+         style="font-size:65%;baseline-shift:super;stroke-width:0.264583"
+         x="292.93948"
+         y="740.1402">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="295.22574"
+       y="765.28925"
+       id="text45"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan45"
+         style="font-size:65%;baseline-shift:super;stroke-width:0.264583"
+         x="295.22574"
+         y="765.28925">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="294.38312"
+       y="834.45709"
+       id="text46"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan46"
+         style="font-size:65%;baseline-shift:super;stroke-width:0.264583"
+         x="294.38312"
+         y="834.45709">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="295.95975"
+       y="861.80719"
+       id="text47"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         style="font-size:65%;baseline-shift:super;stroke-width:0.264583"
+         x="295.95975"
+         y="861.80719">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="226.71909"
+       y="791.75299"
+       id="text49"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         style="stroke-width:0.264583"
+         x="226.71909"
+         y="791.75299"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MATH;-inkscape-font-specification:MATH"
+           id="tspan50">α</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan48">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="255.63911"
+       y="792.36182"
+       id="text53"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan53"
+         style="stroke-width:0.264583"
+         x="255.63911"
+         y="792.36182"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MATH;-inkscape-font-specification:MATH"
+           id="tspan51">β</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan52">0</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="321.89465"
+       y="793.57953"
+       id="text56"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan56"
+         style="stroke-width:0.264583"
+         x="321.89465"
+         y="793.57953"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MATH;-inkscape-font-specification:MATH"
+           id="tspan54">α</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan55">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="350.81479"
+       y="794.18835"
+       id="text59"
+       inkscape:export-filename="/Users/roszenil/Dropbox/Presentations/2021/bisse.png"
+       inkscape:export-xdpi="500"
+       inkscape:export-ydpi="500"><tspan
+         sodipodi:role="line"
+         id="tspan59"
+         style="stroke-width:0.264583"
+         x="350.81479"
+         y="794.18835"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MATH;-inkscape-font-specification:MATH"
+           id="tspan57">β</tspan><tspan
+           style="font-size:65%;baseline-shift:sub"
+           id="tspan58">1</tspan></tspan></text>
+  </g>
+</svg>
