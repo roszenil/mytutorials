@@ -230,3 +230,20 @@ quantile_diff
 
 We see that the credible interval at 95% for $$T_0$$ is (-0.488, -0.214) and for $$T_1$$ es (-0.989, -0.321). Then, zero **does not** belong to these intervals then $$P(H_0\lvert Datos)< 0.05$$. This means, that the tempo of diversification is correlated to the hidden states. This result along with the previous one indicate that the correct model of state-dependent diversification for this system is the CID-2. 
 
+
+### Plot ancestral states map 
+
++ Dowload the marginal ancestral state reconstruction from RevBayes [here](files/asr_hisse_polinizador)
+
+Let's look at what happened
+
+```
+anc_states <- processAncStates(path ="asr_hisse_polinizador.tree",state_labels=c("0"="insect A","1"="wind A","2"="insect B", "3"="wind B"))
+plotAncStatesMAP(t = anc_states, tree_layout="rectangular",
+                 state_transparency = 0.5,
+                 node_size = c(0.1, 5),
+                 tip_labels_size = 2,
+                 tip_states_size=2,
+                 node_color = c("#D9081D","#F8D3D8","#072AC8","#A2D6F9"))
+```
+

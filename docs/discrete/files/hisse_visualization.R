@@ -156,3 +156,16 @@ violin_difference
 
 quantile_diff <- T_diff %>% group_by(difference)%>%reframe(res=quantile(dens,probs=c(0.025,0.975)))
 quantile_diff
+
+
+### Plot ancestral states map 
+
+anc_states <- processAncStates(path ="asr_hisse_polinizador.tree",state_labels=c("0"="insect A","1"="wind A","2"="insect B", "3"="wind B"))
+plotAncStatesMAP(t = anc_states, tree_layout="rectangular",
+                 state_transparency = 0.5,
+                 node_size = c(0.1, 5),
+                 tip_labels_size = 2,
+                 tip_states_size=2,
+                 node_color = c("#D9081D","#F8D3D8","#072AC8","#A2D6F9"))
+
+

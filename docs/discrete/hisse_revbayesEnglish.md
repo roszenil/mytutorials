@@ -287,6 +287,9 @@ mymcmc.run(generations=150000)
 
 5. Create summaries of your ancestral state reconstruction 
 
+ + Download one of the log files of an ancestral reconstruction [here](files/anc_states_hisse_pollination_run_1.log)
+ 
+ 
 ```
 # Generating an marginal posterior distribution for each of the nodes to calculate their ancestral state reconstruction
 ###anc_state_trace = readAncestralStateTrace("output/anc_states_hisse_pollination_run_1.log")
