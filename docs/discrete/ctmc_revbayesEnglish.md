@@ -44,7 +44,7 @@ monitors = VectorMonitors()
 
 ``` 
 ### Phylogenetic tree
-observed_phylogeny <- readTrees("data/poliniza_arbol.tre")[1]
+observed_phylogeny <- readTrees("poliniza_arbol.tre")[1]
 
 ## Data
 ## 0 = Insect pollinated

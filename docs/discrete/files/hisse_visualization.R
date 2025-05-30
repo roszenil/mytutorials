@@ -1,21 +1,21 @@
-# install.packages("devtools")
-# install.packages("coda")
-# install.packages("phytools")
-# install.packages ("ggplot2")
-# install.packages ("dplyr")
+install.packages("devtools")
+install.packages("coda")
+install.packages("phytools")
+install.packages ("ggplot2")
+install.packages ("dplyr")
 ## Instalar treeio
-#if (!require("BiocManager", quietly = TRUE))
-#  install.packages("BiocManager")
-#BiocManager::install("treeio")
+if (!require("BiocManager", quietly = TRUE))
+ install.packages("BiocManager")
+BiocManager::install("treeio")
 
 ##Instalar ggtree
-#if (!require("BiocManager", quietly = TRUE))
-#  install.packages("BiocManager")
-#BiocManager::install("ggtree")
+if (!require("BiocManager", quietly = TRUE))
+ install.packages("BiocManager")
+BiocManager::install("ggtree")
 
 # Importante: no instales install.packages("RevGadgets") porque esto instala desde CRAN. Queremos una version especifica. Por favor sigue la instruccion de abajo. Si ya habias instalado revgadgets por favor reinicia y reinstala asi
 
-# devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
+devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
 
 
 library(coda)

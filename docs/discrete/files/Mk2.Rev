@@ -19,13 +19,13 @@ monitors = VectorMonitors()
 # Reading your data
 #########################
 ### Phylogeny
-observed_phylogeny <- readTrees("data/poliniza_arbol.tre")[1]
+observed_phylogeny <- readTrees("poliniza_arbol.tre")[1]
 
 
 ## Data
 ## 0 = Insect
 ## 1 = Wind
-data <- readCharacterDataDelimited("data/poliniza_datos.csv",
+data <- readCharacterDataDelimited("poliniza_datos.csv",
 stateLabels=2,
 type="NaturalNumbers",
 delimiter=",",
