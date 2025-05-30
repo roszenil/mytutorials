@@ -24,7 +24,7 @@ There are two options to run smoothly this tutorial
 
 ### Option 2
 
-1. Open this [link](https://posit.cloud/content/10437789) 
+1. Open this [link](https://posit.cloud/content/10437996) 
 2. Create a free PositCloud account
 3. You have the full project and files!
 
