@@ -22,6 +22,7 @@ For this tutorial we will create hidden-dependent state model for a pollinizatio
  
  + The whole [HiSSE Rev code](files/hisse.Rev)
  
+ 
  ## RevBayes code
  
  1. Let's start with the vector ``moves`` that saves all the proposal moves for each of the parameters. Also the vector ``monitors`` saves the inference. Especially the posterior distribution for each of the parameters, so we can't forget that.
@@ -32,7 +33,8 @@ moves = VectorMoves()
 monitors = VectorMonitors()
 ```
 
-2. The number of states is now different
+2. We have two main states (0 and 1) and two hidden states (A and B)
+each with their own diversification rates (4 speciation rates and four extinction rates)
 
 ```
 NUM_STATES = 2

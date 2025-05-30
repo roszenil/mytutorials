@@ -10,6 +10,24 @@ math: katex
 
 Created by Rosana Zenil-Ferguson for MOLE workshop, Woods Hole, MA (May 2025)
 
+## Setting up in your computer
+
+There are two options to run smoothly this tutorial
+
+### Option 1
+
+1. Make sure you have the most up-to-date R and RStudio in your personal computer.
+2. Make sure you create a project by doing Files> Open new project > New directory > New project
+3. Name your project a something memorable like discrete_mole2025 and save it in a location where it will be safe. See image below
+![](images/rproject.png)
+4. Download all the files in this tutorial in that exact folder and everything should work smoothly
+
+### Option 2
+
+1. Open this [link](https://posit.cloud/content/10437789) 
+2. Create a free PositCloud account
+3. You have the full project!
+
 ## Library organization
 
 We need the following packages for this tutorial.  **Important**: We need an specific version of RevGadgets and not the version currently in CRAN to do the stochastic mapping. 
