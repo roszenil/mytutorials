@@ -32,4 +32,4 @@ redirect: false
 
 ### Introducción a la Estadística
 1. Estadística Bayesiana 101
-    1. [Tutorial conceptos básicos Bayesiana](./docs/statistics/intro_bayesiana)
+    1. [Tutorial conceptos básicos Bayesiana](./docs/statistics/Intro_bayesiana)
