@@ -30,4 +30,6 @@ redirect: false
 
    
 
-### Other tutorials(TBD) 
+### Introducción a la Estadística
+1. Estadística Bayesiana 101
+    1. [Tutorial conceptos básicos Bayesiana](./docs/statistics/intro_bayesiana)

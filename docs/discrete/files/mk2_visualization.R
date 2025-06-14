@@ -21,12 +21,13 @@ library(RevGadgets)
 library(phytools)
 library(ggplot2)
 
+#library coda
 mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
 mcmc_trace <- as.mcmc(mcmc_run1[[1]])
 traceplot(mcmc_trace)
 effectiveSize(mcmc_trace)
 
-
+## ggplot2
 mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
 mcmc_run1<-data.frame(mcmc_run1)
 mcmc_run1<- cbind(mcmc_run1,run=rep("run 1",length(mcmc_run1$Iteration)))
@@ -42,7 +43,7 @@ trace_plot<- ggplot(mcmc_table, aes(x=Iteration,y=Posterior,group=run))+
   theme_classic()
 trace_plot
 
-
+### revgadgets
 mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
 summarizeTrace(trace = mcmc_run1, vars =c("q_01","q_10","root_frequencies[1]","root_frequencies[2]"))
 
@@ -50,7 +51,7 @@ plotTrace(trace = mcmc_run1, vars = c("q_01","q_10"))[[1]]
 
 plotTrace(trace = mcmc_run1, vars = c("root_frequencies[1]","root_frequencies[2]"))[[1]]
 
-
+##ggplot2
 
 traitcols<-c("#7678ED","#F35B04")
 
@@ -86,7 +87,7 @@ violin_difference
 diff_quantile <-quantile(D$dens, probs=c(0.025,0.975))
 diff_quantile
 
-
+## revgadgets and ggtree
 anc_states <- processAncStates(path ="asr_mk2.tree",state_labels=c("0"="insect","1"="wind"))
 plotAncStatesMAP(t = anc_states, tree_layout="rectangular",
                  state_transparency = 0.5,

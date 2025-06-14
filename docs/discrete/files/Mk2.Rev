@@ -25,7 +25,7 @@ observed_phylogeny <- readTrees("poliniza_arbol.tre")[1]
 ## Data
 ## 0 = Insect
 ## 1 = Wind
-data <- readCharacterDataDelimited("poliniza_datos.csv",
+data <- readCharacterDataDelimited("data/poliniza_datos.csv",
 stateLabels=2,
 type="NaturalNumbers",
 delimiter=",",
