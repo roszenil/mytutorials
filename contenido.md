@@ -31,5 +31,7 @@ redirect: false
    
 
 ### Introducción a la Estadística
-1. Estadística Bayesiana 101
+1. Estadística Evidencial (Verosimilitud) 101
+    1. [Tutorial conceptos básicos para la función de verosimilitud](./docs/statistics/Intro_verosimilitud)
+2. Estadística Bayesiana 101
     1. [Tutorial conceptos básicos Bayesiana](./docs/statistics/Intro_bayesiana)

@@ -149,7 +149,7 @@ plot(parameter.vals, log(p.likelihoodf), type="l",main="log-likelihood for flyca
 plot(parameter.vals, p.likelihoodf/likelihoodval.f, type="l",main="Relative likelihood for flycatchers",xlab=expression(theta),ylab="Likelihood",lwd=2,xlim=c(0,5))
 ```
 
-![](/likelihoodimages/likelihoodforf-1.png)
+![](images/likelihoodforf-1.png)
 
 
 #### Ahora para los que se alimentan en el suelo
@@ -170,7 +170,7 @@ plot(parameter.vals, p.likelihooddl/likelihoodval.dl, type="l",main="Relative li
 
 Se ve como esto
 
-![](/likelihoodimages/unnamed-chunk-3-1.png)
+![](images/unnamed-chunk-3-1.png)
 
 ### Los grupos son distintos?- Test the razones de verosimilitud (Likelihood ratio test)
 
@@ -183,7 +183,7 @@ lines(parameter.vals, p.likelihooddl/likelihoodval.dl,lty=2,col="red",lwd=2)
 legend(x=35,y=0.8, col=c("black","red"),legend=c("flycatcher","dead-leaf"),lty=1:2)
 ```
 
-![](/likelihoodimages/evidenceplots-1.png)
+![](images/evidenceplots-1.png)
 
 ### Intervalos de verosimilitud-confianza
 
@@ -196,7 +196,7 @@ legend(x=35,y=0.8, col=c("black","red"),legend=c("flycatcher","dead-leaf"),lty=1
 abline(h=0.146,lty=3)
 ```
 
-![](/likelihoodimages/likelihoodintervals-1.png)
+![](images/likelihoodintervals-1.png)
 
 ### Test de razones de verosimilitud (likelihood-ratio test)
 Si todos nuestro revisores entendieran verosimilitud, estarían satisfechos de ver nuestros resultados. Sin embargo, muchos esperan el famoso p-valor. Vamos a hacerlo entonces utilizando las propiedades de verosimilitud. Utilizaremos un estadistico de prueba llamado **LRT**.
