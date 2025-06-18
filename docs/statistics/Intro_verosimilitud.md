@@ -30,8 +30,14 @@ head(bird.alarms)
 
 ### Variables aleatorias
 
+Las variables aleatorias son funciones que van de un evento en el mundo real hasta un número (ya sea entero o real). En este ejemplo nuestra variable aleatoria es
 
-### El modelo
+$$X: \textrm{Número de segundos que se congela un pájaro} \to \mathbb{R}$$
+
+Para que sea una variable aleatoria necesita una medida de probabilidad que es lo que vamos a usar en el siguiente paso.
+
+
+### La medida de probabilidad
 
 A la variable aleatoria del tiempo de espera le vamos a asignar una función de densidad de probabilidad llamada **distribución exponencial**. 
 
@@ -41,11 +47,11 @@ La distribución exponencial tiene un parámetro que es una tasa llamada $$1/\th
 ### La función de la verosimilitud
 
 La función de verosimilitud, o verosimilitud en términos sencillos es
-$$L(\theta; \mathbb{X}) = P(\mathbb{X}|Modelo (\theta))$$
+$$L(\theta; \mathbf{X}) = P(\mathbf{X}|Modelo (\theta))$$
 
 y se interpreta como **la probabilidad de la muestra dado el modelo o la hipótesis**. La función de verosimilitud tiene dos partes
 1. El modelo: Representado por la distribución exponencial con parámetro $$1/\theta$$.
-2. Los datos: $$\mathbb{X}$ esto representa la muestra de nuestras observaciones. En este ejemplo la muestra es el tiempo que tardo cada uno de nuestros pájaros en descongelarse.
+2. Los datos: $$\mathbf{X}=x_1, x_2, ..., x_n$$ esto representanuestras observaciones o muestras de tamaño $$n$$. En este ejemplo la muestra es el tiempo que tardo cada uno de nuestros pájaros en descongelarse.
 
 La verosimilitud es una función sencilla de entender, lo que nos dice es que estamos calculando la probabilidad de observar todos estos comportamientos de los pájaros bajo un modelo razonable. Nosotros podemos cambiar el modelo cómo queramos, pero los datos es lo que hemos observado.
 
