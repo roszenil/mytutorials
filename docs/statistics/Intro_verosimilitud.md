@@ -1,7 +1,7 @@
 ---
 title: Introducción a la inferencia con la función de verosimilitud
 layout: home
-nav_order: 11
+nav_order: 13
 index: true
 redirect: false
 parent: Tutorials
@@ -153,7 +153,7 @@ plot(parameter.vals, p.likelihoodf/likelihoodval.f, type="l",main="Relative like
 
 
 #### Ahora para los que se alimentan en el suelo
-``` r
+```
 p.likelihooddl<-rep(0,long)
 for (i in 1:long){
 p.likelihooddl[i]<- -likelihood.function(parameter.vals[i],observations=dl.forager)
@@ -201,7 +201,7 @@ abline(h=0.146,lty=3)
 ### Test de razones de verosimilitud (likelihood-ratio test)
 Si todos nuestro revisores entendieran verosimilitud, estarían satisfechos de ver nuestros resultados. Sin embargo, muchos esperan el famoso p-valor. Vamos a hacerlo entonces utilizando las propiedades de verosimilitud. Utilizaremos un estadistico de prueba llamado **LRT**.
 
-$$LRT = -2(log (L (H_0))- log(L(H_1)))
+$$LRT = -2(log (L (H_0))- log(L(H_1)))$$
 
 Para hipotesis nula $$H_0$$  vamos a asumir que todos los pajaros tienen el mismo comportamiento. 
 
@@ -211,14 +211,15 @@ loglike.H0<- log(-likelihood.function(parameter=mle.H0,observations=c(dl.forager
 ```
 
 Y para la alternativa $$H_1$$ asumimos que cada grupo tiene distinto comportamiento.
-``` r
+```
 (loglike.H1<-log(likelihoodval.f*likelihoodval.dl))
- -77.5975
 ```
 
 Estos dos modelos son anidados!
 
 Ahora calculamos el estadístico de prueba
+
+
 ``` 
 (LRT<- -2*(loglike.H0-loglike.H1))
 ```

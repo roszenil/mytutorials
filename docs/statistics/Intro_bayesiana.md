@@ -1,7 +1,7 @@
 ---
 title: Introducción a la estadística Bayesiana
 layout: home
-nav_order: 10
+nav_order: 12
 index: true
 redirect: false
 parent: Tutorials
