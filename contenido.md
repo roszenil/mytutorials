@@ -32,8 +32,8 @@ redirect: false
 
 ### Introducción a la Estadística
 1. Estadística Evidencial (Verosimilitud) 101
-    1. Diapositivas [aquí](./docs/statistics/Intro_verosimilitud)
+    1. Diapositivas [aquí](https://github.com/roszenil/mytutorials/blob/main/docs/statistics/files/verosimilitud_slides.pdf)
     2. [Tutorial conceptos básicos para la función de verosimilitud](./docs/statistics/Intro_verosimilitud)
 2. Estadística Bayesiana 101
-    1. Diapositivas [aquí](./docs/statistics/Intro_verosimilitud)
+    1. Diapositivas [aquí](https://github.com/roszenil/mytutorials/blob/main/docs/statistics/files/Inferencia_bayesiana_slides.pdf)
     2. [Tutorial conceptos básicos Bayesiana](./docs/statistics/Intro_bayesiana)
