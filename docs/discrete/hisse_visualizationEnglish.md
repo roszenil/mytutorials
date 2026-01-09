@@ -106,7 +106,7 @@ trace_plot
 We are going to plot the posterior distribution of the parameters. For the HiSSE model we have a lot of them 
 
 + Transition rates between main states $$q_{01A}, q_{10A}, q_{01B}, q_{10B}$$
-+ Transition rates between hidden states $$\alpha, \beta$$
++ Transition rates between hidden states $$q_AB, q_BA$$
 + Net diversification rates $$r_{0A}=\lambda_{0A}-\mu_{0A},r_{1A}=\lambda_{1A}-\mu_{1A},r_{0B}=\lambda_{0B}-\mu_{0B}, r_{1B}=\lambda_{1B}-\mu_{1B}$$
 + Alternatively: Extinction fractions, turnover $$\epsilon_{0A}=\mu_{0A}/\lambda_{0A}, \epsilon_{1A}=\mu_{1A}/\lambda_{1A}, \epsilon_{0B}=\mu_{0B}/\lambda_{0B},\epsilon_{1B}=\mu_{1B}/\lambda_{1B}$$
 + Root frequencies
@@ -137,7 +137,7 @@ violin_transitions
 
 ## Hidden state transitions
 
-hidden_rates<- data.frame(dens=c(hisse$hidden_rate1,hisse$hidden_rate2) ,rate=rep(c("alpha","beta"),each=length(hisse$hidden_rate1)))
+hidden_rates<- data.frame(dens=c(hisse$hidden_rate1,hisse$hidden_rate2) ,rate=rep(c("q_AB","q_BA"),each=length(hisse$hidden_rate1)))
 
 violin_hidden<- ggplot(hidden_rates,aes(x=rate,y=dens, fill=rate))+
   geom_violin(trim=FALSE)+

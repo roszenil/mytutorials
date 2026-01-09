@@ -90,7 +90,7 @@ trace_plot
 Queremos graficar y obtener estadísticas resumen de los parametros de interés. Recordemos que para el modelo hisse los parámetros que estimamos van a ser los siguientes:
 
 + Tasas de transición $$q_{01A}, q_{10A}, q_{01B}, q_{10B}$$
-+ Tasas de transición entre estados escondidos $$\alpha, \beta$$ (se llaman hidden_rate en el código de RevBayes)
++ Tasas de transición entre estados escondidos $q_AB, q_BA$ (se llaman hidden_rate en el código de RevBayes)
 + Tasas de diversificación neta $$r_{0A}=\lambda_{0A}-\mu_{0A},r_{1A}=\lambda_{1A}-\mu_{1A},r_{0B}=\lambda_{0B}-\mu_{0B}, r_{1B}=\lambda_{1B}-\mu_{1B}$$
 + Alternativo: la fracción de extinción $$\epsilon_{0A}=\mu_{0A}/\lambda_{0A}, \epsilon_{1A}=\mu_{1A}/\lambda_{1A}, \epsilon_{0B}=\mu_{0B}/\lambda_{0B},\epsilon_{1B}=\mu_{1B}/\lambda_{1B}$$
 + Frecuencias de la raíz
@@ -118,7 +118,7 @@ violin_transitions
 
 ## Transiciones entre estados escondidos
 
-hidden_rates<- data.frame(dens=c(hisse$hidden_rate1,hisse$hidden_rate2) ,rate=rep(c("alpha","beta"),each=length(hisse$hidden_rate1)))
+hidden_rates<- data.frame(dens=c(hisse$hidden_rate1,hisse$hidden_rate2) ,rate=rep(c("q_AB","q_BA"),each=length(hisse$hidden_rate1)))
 
 violin_hidden<- ggplot(hidden_rates,aes(x=rate,y=dens, fill=rate))+
   geom_violin(trim=FALSE)+
