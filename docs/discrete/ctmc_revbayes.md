@@ -23,7 +23,7 @@ Para este tutorial vamos a ajustar un modelo para un caracter discreto. El carac
 ## El modelo
  
 El modelo en un gráfico de círculos y flecha se ve así
-![](images/themodel.png)
+![](images/circlearrowpng.png){width=40%}
 
 Vamos a implementar este modelo que es una CMTC como lo describimos en la sección anterior utilizando estadística Bayesiana en RevBayes. Recuerda que en Bayesiana asumimos que los parámetros $$q_{01}$$ y $$q_{10}$$ son desconocidos pero son variables aleatorias, lo que nos interesa es observar su distribución posterior para poder argumentar que tan rápido o lento ha sido la evolución de la polinización y como cambio a través del árbol filogenético.
  

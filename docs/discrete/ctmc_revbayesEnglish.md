@@ -78,7 +78,7 @@ moves.append(mvScale( q_10, weight=2 ))
 
 What we have done is represented in the graphical model for revBayes like this. 
 
-![](images/prior.png)
+![](images/priorv2.png)
 
 4. Build the CTMC called in comparative methods the Mk2 (Markov model with 2 states) using its essential tool: the Q-matrix
 
@@ -99,7 +99,7 @@ q[2][1] := q_10
 rate_matrix := fnFreeK(q, rescaled=false, matrixExponentialMethod="scalingAndSquaring")
 ```
 
-![](images/qmatrixmodel.png)
+![](images/qmatrixmodelv2.png)
 
 5. Root estimation
 
@@ -115,7 +115,7 @@ moves.append(mvBetaSimplex(root_frequencies, alpha=0.5, weight=2))
 moves.append(mvElementSwapSimplex(root_frequencies, weight=3))
 ```
 
-![](images/root.png)
+![](images/rootv2.png)
 
 6. Last step to build the Mk2
 
