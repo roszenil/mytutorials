@@ -11,15 +11,16 @@ redirect: false
 
 ### Discrete character models  
 1. Continuous-time Markov Models (Mkn)
-    1. [Slides](https://roszenil.github.io/mytutorials/docs/discrete/files/ctmc_intro.pdf)
+    1. [Slides](https://roszenil.github.io/mytutorials/docs/discrete/files/ctmc_introv2.pdf)
     2. [Notes on CTMC](https://roszenil.github.io/mytutorials/docs/discrete/files/intro_ctmc.html)
     3. [Mk2 tutorial in RevBayes](./docs/discrete/ctmc_revbayesEnglish)
     4. [Visualizing the results of Mk2](./docs/discrete//mk2_visualizacionEnglish)
     
 2. State dependent diversification models (SSE)
-    1. [Slides](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/sse_intro.pdf)
+    1. [Slides MOLE2025](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/sse_intro.pdf)
     2. [BiSSE tutorial in RevBayes](./docs/discrete/SSEmodelsEnglish)
     3. [BiSSE visualization in R](./docs/discrete/bisse_visualizationEnglish)
+    4. [Slides SSB2026](https://github.com/roszenil/mytutorials/blob/main/docs/discrete/files/sse_introv3.pdf)
     4. [HiSSE introduction](./docs/discrete/SSEmodels_hiddenEnglish)
     5. [HiSSE tutorial in RevBayes](./docs/discrete/hisse_revbayesEnglish)
     6. [HiSSE visualization in R](./docs/discrete/hisse_visualizationEnglish)
