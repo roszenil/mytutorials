@@ -8,7 +8,8 @@ parent: Tutorials
 math: katex
 ---
 
-Created by Rosana Zenil-Ferguson (May 2025)
+Created by Rosana Zenil-Ferguson (May 2025).
+Last updated January 2026
 
 ## Setting up in your computer
 

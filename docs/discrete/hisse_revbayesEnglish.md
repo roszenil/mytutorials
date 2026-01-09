@@ -7,7 +7,7 @@ redirect: false
 parent: Tutorials
 math: katex
 ---
-Created by Rosana Zenil-Ferguson for MOLE Workshop at Woods Hole, MA(May 2025). 
+Created by Rosana Zenil-Ferguson for MOLE Workshop at Woods Hole, MA (May 2025). 
 Data from di Stilio and Zenil-Ferguson. All traits considered. 2025. *Submitted*. 
 
 For this tutorial we will create hidden-dependent state model for a pollinization with two states: Insect pollination (I) is denoted by 0 and wind pollination (W) is 1.
@@ -46,13 +46,13 @@ NUM_RATES = NUM_STATES * NUM_HIDDEN
 
 ``` 
 ### Phylogenetic tree
-observed_phylogeny <- readTrees("poliniza_arbol.tre")[1]
+observed_phylogeny <- readTrees("data/poliniza_arbol.tre")[1]
 
 
 ## Data
 ## 0 = Insect pollinated
 ## 1 = Wind pollinated
-data <- readCharacterDataDelimited("poliniza_datos.csv",
+data <- readCharacterDataDelimited("data/poliniza_datos.csv",
 stateLabels=2,
 type="NaturalNumbers",
 delimiter=",",
@@ -148,7 +148,7 @@ moves.append(mvSlide(extinction_alpha[i],delta=0.20,tune=true,weight=2.0))
 for (i in 1:NUM_HIDDEN) {
 
 ### Create an exponential distributed variable for the speciation rate
-speciation_beta[i] ~ dnExp(1.0)
+speciation_beta[i] ~ dnNormal(0.0,1.0)
 moves.append(mvScale(speciation_beta[i],lambda=0.20,tune=true,weight=2.0))
 
 ### Create an normal distributed variable for the extinction
@@ -258,7 +258,8 @@ monitors.append(mnModel(filename="output/hisse_pollination.log", printgen=1))
 monitors.append(mnScreen(printgen=10, q_01A, q_10A, speciation, extinction))
 
 ## This monitor tracks what is going on with the ancestral state reconstruction at each node
-monitors.append(mnJointConditionalAncestralState(tree=hisse, cdbdp=hisse, type="NaturalNumbers", printgen=1000, withTips=true, withStartStates=false, filename="output/anc_states_hisse_pollination.log"))
+## This takes a long time for SSE models
+#monitors.append(mnJointConditionalAncestralState(tree=hisse, cdbdp=hisse, type="NaturalNumbers", printgen=1000, withTips=true, withStartStates=false, filename="output/anc_states_hisse_pollination.log"))
 
 ## This monitor creates stochastic character maps (evolution over the branches)- this is very slow for very complicated models
 

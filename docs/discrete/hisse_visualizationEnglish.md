@@ -8,7 +8,8 @@ parent: Tutorials
 math: katex
 ---
 
-Created by Rosana Zenil-Ferguson for MOLE workshop, Woods Hole, MA (May 2025)
+Created by Rosana Zenil-Ferguson.
+Last updated January 2026
 
 ## Setting up in your computer
 
@@ -233,7 +234,7 @@ violin_difference<- ggplot(T_diff,aes(x=difference,y=dens, fill=difference))+
 
 violin_difference
 
-# Observemos que 0 cruza la diferencia entre las tasas lo que quiere decir que pueden ser iguales
+# Observe that 0 crosses these test statistics. These implies that the net diversifications are not different. 
 ```
 
 Formalizing the hypothesis testing
