@@ -46,6 +46,6 @@ redirect: false
 
 ### CIMAT- XXIV Escuela de Probabilidad y Estadística 
 
-1. Diapositivas 18 de Marzo [aquí](https://github.com/roszenil/mytutorials/blob/main/docs/statistics/files/dia1_introctmc.pdf))
+1. Diapositivas 18 de Marzo [aquí]((https://roszenil.github.io/mytutorials/docs/statistics/files/dia1_introctmc.pdf)
 2. [Instalación de Software](./docs/discrete/software)
 3. Introducción a RevBayes para el modelo [Mk2](https://roszenil.github.io/pcm_naturalistas/practicals/ctmc_revbayes/) 
