@@ -25,12 +25,14 @@ redirect: false
     5. [HiSSE tutorial in RevBayes](./docs/discrete/hisse_revbayesEnglish)
     6. [HiSSE visualization in R](./docs/discrete/hisse_visualizationEnglish)
 
+
+## Tutoriales en Español
+
 ### Modelos para caracteres discretos
 1. Cadenas de Markov en tiempo continuo
     1. [Tutorial RevBayes Mk2](./docs/discrete/ctmc_revbayes)
     2. [Visualización resultados Mk2](./docs/discrete/mk2_visualizacion)
 
-   
 
 ### Introducción a la Estadística
 1. Estadística Evidencial (Verosimilitud) 101
@@ -39,3 +41,11 @@ redirect: false
 2. Estadística Bayesiana 101
     1. Diapositivas [aquí](https://github.com/roszenil/mytutorials/blob/main/docs/statistics/files/Inferencia_bayesiana_slides.pdf)
     2. [Tutorial conceptos básicos Bayesiana](./docs/statistics/Intro_bayesiana)
+
+## Talleres 206
+
+### CIMAT- XXIV Escuela de Probabilidad y Estadística 
+
+1. Diapositivas 18 de Marzo [aquí](https://github.com/roszenil/mytutorials/blob/main/docs/statistics/files/dia1_introctmc.pdf))
+2. [Instalación de Software](./docs/discrete/software)
+3. Introducción a RevBayes para el modelo [Mk2](https://roszenil.github.io/pcm_naturalistas/practicals/ctmc_revbayes/) 
