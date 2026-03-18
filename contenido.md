@@ -42,10 +42,16 @@ redirect: false
     1. Diapositivas [aquí](https://github.com/roszenil/mytutorials/blob/main/docs/statistics/files/Inferencia_bayesiana_slides.pdf)
     2. [Tutorial conceptos básicos Bayesiana](./docs/statistics/Intro_bayesiana)
 
-## Talleres 206
+## Talleres 2026
 
-### CIMAT- XXIV Escuela de Probabilidad y Estadística 
+### Quito- Pontifícia Universidad del Ecuador Métodos Comparativos para Naturalistas (3-7 de Febrero)
+
+Materiales [aquí](https://roszenil.github.io/pcm_naturalistas/)
+
+
+### CIMAT- XXIV Escuela de Probabilidad y Estadística (18-20 de Marzo)
 
 1. Diapositivas 18 de Marzo [aquí](https://roszenil.github.io/mytutorials/docs/statistics/files/dia1_introctmc.pdf)
 2. [Instalación de Software](./docs/discrete/software)
 3. Introducción a RevBayes para el modelo [Mk2](https://roszenil.github.io/pcm_naturalistas/practicals/ctmc_revbayes/) 
+
