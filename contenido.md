@@ -53,5 +53,6 @@ Materiales [aquí](https://roszenil.github.io/pcm_naturalistas/)
 
 1. Diapositivas 18 de Marzo [aquí](https://roszenil.github.io/mytutorials/docs/statistics/files/dia1_introctmc.pdf)
 2. [Instalación de Software](./docs/discrete/software)
-3. Introducción a RevBayes para el modelo [Mk2](https://roszenil.github.io/pcm_naturalistas/practicals/ctmc_revbayes/) 
+3. Diapositivas 19 de Marzo [aquí](https://roszenil.github.io/mytutorials/docs/statistics/files/dia2_ctmc_revbayes.pdf)
+4. Introducción a RevBayes para el modelo [Mk2](https://roszenil.github.io/pcm_naturalistas/practicals/ctmc_revbayes/) 
 
