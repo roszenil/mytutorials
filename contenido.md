@@ -57,3 +57,8 @@ Materiales [aquí](https://roszenil.github.io/pcm_naturalistas/)
 4. Introducción a RevBayes para el modelo [Mk2](https://roszenil.github.io/pcm_naturalistas/practicals/ctmc_revbayes/) 
 5. Diapositivas 20 de Marzo [aquí](https://roszenil.github.io/mytutorials/docs/statistics/files/dia3_revbayes_nuevosmodelos.pdf)
 6. Visualización de [resultados del Mk2](https://roszenil.github.io/mytutorials/docs/discrete/mk2_visualizacion)
+
+### Molecular Evolution at Woods Hole 2026 (MOLE)
+
+1. Introduction to likelihood [slides](https://roszenil.github.io/mytutorials/docs/statistics/files/likelihood_slides.pdf)
+2. Likelihood in phylogenetics [slides](https://roszenil.github.io/mytutorials/docs/statistics/files/likelihood_phylogenetics.pdf)
