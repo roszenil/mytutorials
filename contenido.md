@@ -62,3 +62,5 @@ Materiales [aquí](https://roszenil.github.io/pcm_naturalistas/)
 
 1. Introduction to likelihood [slides](https://roszenil.github.io/mytutorials/docs/statistics/files/likelihood_slides.pdf)
 2. Likelihood in phylogenetics [slides](https://roszenil.github.io/mytutorials/docs/statistics/files/likelihood_phylogenetics.pdf)
+3. Phylogenetic models [slides](https://roszenil.github.io/mytutorials/docs/statistics/files/phylogenetic_models.pdf)
+4. Introduction to Bayesian statistics [slides](https://roszenil.github.io/mytutorials/docs/statistics/files/bayesian_stats_intro.pdf)
